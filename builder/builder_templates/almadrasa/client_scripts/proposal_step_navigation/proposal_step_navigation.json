@@ -1,0 +1,13 @@
+{
+ "creation": "2026-09-25 12:36:17.170338",
+ "docstatus": 0,
+ "doctype": "Builder Client Script",
+ "idx": 1,
+ "modified": "2026-09-25 12:49:18.384789",
+ "modified_by": "Administrator",
+ "name": "Proposal Step Navigation",
+ "owner": "Administrator",
+ "public_url": "/files/page_scripts/Proposal Step Navigation-a58673ce3d.js?v=857c9711aa",
+ "script": "const proposalProfile = document.querySelector('[data-proposal-step=\"profile\"]');\nconst proposalGroups = document.querySelector('[data-proposal-step=\"groups\"]');\nconst proposalApplication = document.querySelector('[data-proposal-step=\"application\"]');\nconst proposalSteps = [proposalProfile, proposalGroups, proposalApplication].filter(Boolean);\n\nconst setProposalStep = (step) => {\n  const target = step === 'profile' ? proposalProfile : step === 'groups' ? proposalGroups : proposalApplication;\n  if (!target) return;\n  proposalSteps.forEach((section) => {\n    const active = section === target;\n    section.hidden = !active;\n    section.style.display = active ? (section === proposalProfile ? 'grid' : 'flex') : 'none';\n    section.setAttribute('aria-hidden', active ? 'false' : 'true');\n  });\n  target.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });\n};\n\ndocument.addEventListener('click', (event) => {\n  const profileTrigger = event.target.closest('[data-action=\"open_application\"]');\n  if (profileTrigger && proposalProfile?.contains(profileTrigger)) {\n    event.preventDefault();\n    setProposalStep('groups');\n    return;\n  }\n  if (event.target.closest('[data-action=\"back_to_profile\"]')) {\n    event.preventDefault();\n    setProposalStep('profile');\n    return;\n  }\n  if (event.target.closest('[data-action=\"back_to_groups\"]')) {\n    event.preventDefault();\n    setProposalStep('groups');\n  }\n});\n\ndocument.addEventListener('proposal:group-selected', (event) => {\n  const { id, name } = event.detail || {};\n  if (!id) return;\n  const select = proposalApplication?.querySelector('[data-selected-group-field]');\n  const notice = proposalApplication?.querySelector('[data-selected-group-notice]');\n  if (!select) return;\n  let option = [...select.options].find((item) => item.value === id);\n  if (!option) { option = new Option(name || 'المجموعة المختارة', id, true, true); select.add(option); }\n  select.value = id;\n  select.dispatchEvent(new Event('change', { bubbles: true }));\n  if (notice) { notice.textContent = `المجموعة المختارة: ${name || 'المجموعة المختارة'}`; notice.hidden = false; notice.style.display = 'block'; }\n  setProposalStep('application');\n});\n\nsetProposalStep('profile');",
+ "script_type": "JavaScript"
+}

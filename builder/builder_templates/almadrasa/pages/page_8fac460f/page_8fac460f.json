@@ -1,0 +1,3293 @@
+{
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "baseStyles": {
+    "alignItems": "center",
+    "backgroundColor": "var(--dt-lilac)",
+    "color": "#1F2254",
+    "direction": "rtl",
+    "display": "flex",
+    "flexDirection": "column",
+    "fontFamily": "var(--dt-font-body)",
+    "fontSize": "16px",
+    "letterSpacing": "0",
+    "lineHeight": "1.8",
+    "minHeight": "100vh",
+    "overflowX": "hidden",
+    "width": "100%"
+   },
+   "blockId": "root",
+   "blockName": "body",
+   "children": [
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--dt-lilac)",
+      "padding": "18px 18px 0",
+      "width": "100%"
+     },
+     "blockId": "9c75afc64",
+     "blockName": "presentation-header-zone",
+     "children": [
+      {
+       "baseStyles": {
+        "alignItems": "center",
+        "backgroundColor": "var(--dt-paper)",
+        "border": "1px solid #D9D5F2",
+        "borderColor": "#D7E2D4",
+        "borderRadius": "12px",
+        "boxShadow": "0 8px 20px rgba(30,77,66,0.08)",
+        "display": "flex",
+        "gap": "24px",
+        "justifyContent": "space-between",
+        "margin": "0 auto",
+        "maxWidth": "1280px",
+        "minHeight": "76px",
+        "padding": "10px 18px",
+        "position": "relative",
+        "width": "100%",
+        "zIndex": "3"
+       },
+       "blockId": "8f9c5da20",
+       "blockName": "poster-nav",
+       "children": [
+        {
+         "attributes": {
+          "href": "#الملتقى",
+          "rel": "noopener noreferrer"
+         },
+         "baseStyles": {
+          "color": "var(--dt-ink)",
+          "fontFamily": "var(--dt-font-heading)",
+          "fontSize": "18px",
+          "fontWeight": "700",
+          "textDecoration": "none",
+          "whiteSpace": "nowrap"
+         },
+         "blockId": "a033e829e",
+         "blockName": "brand-anchor",
+         "classes": [
+          "am-underline"
+         ],
+         "element": "a",
+         "innerHTML": "منصة المعلّمين"
+        },
+        {
+         "baseStyles": {
+          "alignItems": "center",
+          "display": "flex",
+          "flex": "1",
+          "gap": "28px",
+          "justifyContent": "center"
+         },
+         "blockId": "a72b5c2b0",
+         "blockName": "event-links",
+         "children": [
+          {
+           "attributes": {
+            "href": "#الملتقى",
+            "rel": "noopener noreferrer"
+           },
+           "baseStyles": {
+            "color": "var(--dt-ink)",
+            "fontSize": "13px",
+            "fontWeight": "500",
+            "textDecoration": "none"
+           },
+           "blockId": "36b625205",
+           "blockName": "nav-teacher",
+           "classes": [
+            "am-underline"
+           ],
+           "element": "a",
+           "innerHTML": "المعلّم"
+          },
+          {
+           "attributes": {
+            "href": "#المجموعات-المتاحة",
+            "rel": "noopener noreferrer"
+           },
+           "baseStyles": {
+            "color": "var(--dt-ink)",
+            "fontSize": "13px",
+            "fontWeight": "500",
+            "textDecoration": "none"
+           },
+           "blockId": "3cf683763",
+           "blockName": "nav-groups",
+           "classes": [
+            "am-underline"
+           ],
+           "element": "a",
+           "innerHTML": "المجموعات"
+          },
+          {
+           "attributes": {
+            "href": "#التسجيل",
+            "rel": "noopener noreferrer"
+           },
+           "baseStyles": {
+            "color": "var(--dt-ink)",
+            "fontSize": "13px",
+            "fontWeight": "500",
+            "textDecoration": "none"
+           },
+           "blockId": "279e51a82",
+           "blockName": "nav-registration",
+           "classes": [
+            "am-underline"
+           ],
+           "element": "a",
+           "innerHTML": "التسجيل"
+          }
+         ],
+         "element": "nav",
+         "mobileStyles": {
+          "display": "none"
+         }
+        },
+        {
+         "attributes": {
+          "href": "#التسجيل",
+          "rel": "noopener noreferrer"
+         },
+         "baseStyles": {
+          "alignItems": "center",
+          "backgroundColor": "var(--dt-lime)",
+          "borderRadius": "10px",
+          "color": "var(--dt-ink)",
+          "display": "flex",
+          "fontSize": "14px",
+          "fontWeight": "700",
+          "hover:backgroundColor": "#C9E500",
+          "hover:transform": "translateY(-2px)",
+          "justifyContent": "center",
+          "minHeight": "48px",
+          "padding": "12px 20px",
+          "textDecoration": "none",
+          "transition": "all 0.2s ease",
+          "whiteSpace": "nowrap"
+         },
+         "blockId": "3f8e47ad2",
+         "blockName": "header-registration-cta",
+         "classes": [
+          "am-btn"
+         ],
+         "element": "a",
+         "innerHTML": "احجز مقعدك"
+        }
+       ],
+       "element": "header",
+       "mobileStyles": {
+        "gap": "12px",
+        "minHeight": "64px",
+        "padding": "8px 12px"
+       }
+      }
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "12px 16px 0"
+     }
+    },
+    {
+     "attributes": {
+      "id": "الملتقى"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--dt-lilac)",
+      "padding": "22px 18px 18px",
+      "width": "100%"
+     },
+     "blockId": "17c6bc960",
+     "blockName": "ux-event-poster",
+     "children": [
+      {
+       "baseStyles": {
+        "backgroundColor": "var(--dt-paper)",
+        "border": "2px solid #8FC5FF",
+        "borderColor": "#D7E2D4",
+        "borderRadius": "0",
+        "boxShadow": "none",
+        "display": "grid",
+        "gap": "44px",
+        "gridTemplateColumns": "minmax(0,0.82fr) minmax(0,1.18fr)",
+        "margin": "0 auto",
+        "maxWidth": "1280px",
+        "minHeight": "400px",
+        "overflow": "hidden",
+        "padding": "46px 56px",
+        "position": "relative",
+        "width": "100%"
+       },
+       "blockId": "f1a4d80e0",
+       "blockName": "poster-hero",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "display": "flex",
+          "flexDirection": "column",
+          "gridColumn": "2",
+          "gridRow": "1",
+          "justifyContent": "center",
+          "maxWidth": "none",
+          "minWidth": "0",
+          "padding": "10px 0",
+          "position": "relative",
+          "textAlign": "right",
+          "zIndex": "1"
+         },
+         "blockId": "0529e0dd3",
+         "blockName": "hero-copy",
+         "children": [
+          {
+           "attributes": {
+            "data-teacher-tagline": "true"
+           },
+           "baseStyles": {
+            "backgroundColor": "transparent",
+            "borderRight": "5px solid #E6BF4A",
+            "color": "#1E4D42",
+            "fontSize": "13px",
+            "fontWeight": "700",
+            "lineHeight": "1.4",
+            "margin": "0 0 14px",
+            "padding": "2px 12px"
+           },
+           "blockId": "56ce5f102",
+           "blockName": "teacher-tagline",
+           "element": "p",
+           "innerHTML": "تعلّم منظّم ومتابعة قريبة"
+          },
+          {
+           "attributes": {
+            "data-teacher-name": "true"
+           },
+           "baseStyles": {
+            "color": "#174C46",
+            "fontFamily": "var(--dt-font-heading)",
+            "fontSize": "58px",
+            "fontWeight": "700",
+            "letterSpacing": "0",
+            "lineHeight": "1.2",
+            "margin": "0 0 16px",
+            "maxWidth": "11ch"
+           },
+           "blockId": "4c7b804a0",
+           "blockName": "teacher-name",
+           "element": "h1",
+           "innerHTML": "تعلّم بثقة، خطوة بخطوة",
+           "mobileStyles": {
+            "fontSize": "clamp(2.4rem,11vw,3.25rem)",
+            "lineHeight": "1.2",
+            "maxWidth": "100%",
+            "overflowWrap": "anywhere"
+           }
+          },
+          {
+           "attributes": {
+            "data-teacher-bio": "true"
+           },
+           "baseStyles": {
+            "color": "#617169",
+            "fontSize": "15px",
+            "lineHeight": "2",
+            "margin": "0 0 24px",
+            "maxWidth": "44ch"
+           },
+           "blockId": "29b77deab",
+           "blockName": "teacher-bio",
+           "element": "p",
+           "innerHTML": "شرح منظّم، متابعة قريبة، ومجموعات تساعدك على الوصول إلى أهدافك الدراسية."
+          },
+          {
+           "baseStyles": {
+            "alignItems": "center",
+            "display": "flex",
+            "flexWrap": "wrap",
+            "gap": "12px",
+            "marginBottom": "26px"
+           },
+           "blockId": "8ec40c49c",
+           "blockName": "hero-actions",
+           "children": [
+            {
+             "attributes": {
+              "data-action": "open_application",
+              "href": "#التسجيل",
+              "rel": "noopener noreferrer"
+             },
+             "baseStyles": {
+              "alignItems": "center",
+              "backgroundColor": "var(--dt-ink)",
+              "borderRadius": "10px",
+              "color": "var(--on-brand)",
+              "display": "flex",
+              "fontWeight": "700",
+              "hover:backgroundColor": "#2117B9",
+              "hover:transform": "translateY(-2px)",
+              "justifyContent": "center",
+              "minHeight": "52px",
+              "padding": "14px 22px",
+              "textDecoration": "none",
+              "transition": "all 0.2s ease"
+             },
+             "blockId": "055e2c618",
+             "blockName": "open-application",
+             "classes": [
+              "am-btn"
+             ],
+             "element": "a",
+             "innerHTML": "انضم إلى مجموعة"
+            },
+            {
+             "attributes": {
+              "data-binding": "teacher_contact_url",
+              "href": "#التسجيل",
+              "rel": "noopener noreferrer"
+             },
+             "baseStyles": {
+              "alignItems": "center",
+              "border": "1px solid var(--dt-ink)",
+              "borderRadius": "10px",
+              "color": "var(--dt-ink)",
+              "display": "flex",
+              "fontSize": "14px",
+              "fontWeight": "600",
+              "hover:backgroundColor": "var(--dt-lilac)",
+              "justifyContent": "center",
+              "minHeight": "52px",
+              "padding": "13px 20px",
+              "textDecoration": "none",
+              "transition": "all 0.2s ease"
+             },
+             "blockId": "711804742",
+             "blockName": "teacher-contact-link",
+             "element": "a",
+             "innerHTML": "تواصل مع المعلّم"
+            }
+           ],
+           "element": "div"
+          },
+          {
+           "baseStyles": {
+            "alignItems": "center",
+            "backgroundColor": "#F5F8F1",
+            "border": "1px solid #D9D5F2",
+            "borderColor": "#D7E2D4",
+            "borderRadius": "8px",
+            "display": "flex",
+            "flexWrap": "wrap",
+            "gap": "12px",
+            "padding": "10px 13px"
+           },
+           "blockId": "fcd85bc2f",
+           "blockName": "event-metadata",
+           "children": [
+            {
+             "baseStyles": {
+              "alignItems": "center",
+              "display": "flex",
+              "gap": "7px"
+             },
+             "blockId": "07cbcf969",
+             "blockName": "rating-fact",
+             "children": [
+              {
+               "baseStyles": {
+                "color": "#6B6F66",
+                "fontSize": "12px"
+               },
+               "blockId": "38c15bf01",
+               "blockName": "rating-label",
+               "element": "span",
+               "innerHTML": "التقييم"
+              },
+              {
+               "attributes": {
+                "data-binding": "teacher_rating",
+                "data-teacher-rating": "true"
+               },
+               "baseStyles": {
+                "color": "#1F2254",
+                "fontSize": "14px",
+                "fontWeight": "700"
+               },
+               "blockId": "0aeab45a3",
+               "blockName": "teacher-rating",
+               "element": "span",
+               "innerHTML": "—"
+              }
+             ],
+             "element": "div"
+            },
+            {
+             "baseStyles": {
+              "backgroundColor": "#D9D5F2",
+              "height": "26px",
+              "width": "1px"
+             },
+             "blockId": "138c49531",
+             "blockName": "metadata-divider",
+             "element": "div"
+            },
+            {
+             "baseStyles": {
+              "alignItems": "center",
+              "display": "flex",
+              "gap": "7px"
+             },
+             "blockId": "d8ca3089d",
+             "blockName": "groups-count-fact",
+             "children": [
+              {
+               "baseStyles": {
+                "color": "#6B6F66",
+                "fontSize": "12px"
+               },
+               "blockId": "eae51afcc",
+               "blockName": "groups-count-label",
+               "element": "span",
+               "innerHTML": "مجموعات متاحة"
+              },
+              {
+               "attributes": {
+                "data-teacher-groups-count": "true"
+               },
+               "baseStyles": {
+                "color": "#1F2254",
+                "fontSize": "14px",
+                "fontWeight": "700"
+               },
+               "blockId": "081c2a87b",
+               "blockName": "groups-count",
+               "element": "span",
+               "innerHTML": "0"
+              }
+             ],
+             "element": "div"
+            }
+           ],
+           "element": "div"
+          }
+         ],
+         "element": "div",
+         "mobileStyles": {
+          "gridColumn": "1",
+          "gridRow": "1",
+          "padding": "0"
+         }
+        },
+        {
+         "baseStyles": {
+          "alignItems": "stretch",
+          "backgroundColor": "#EFF7F1",
+          "border": "1px solid #D7E2D4",
+          "borderRadius": "16px",
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": "0",
+          "gridColumn": "1",
+          "gridRow": "1",
+          "minHeight": "300px",
+          "minWidth": "0",
+          "overflow": "hidden",
+          "padding": "16px",
+          "position": "relative"
+         },
+         "blockId": "5340e49ad",
+         "blockName": "editorial-speaker-portrait",
+         "children": [
+          {
+           "attributes": {
+            "alt": "صورة المعلّم",
+            "data-binding": "teacher_cover",
+            "data-teacher-cover": "true",
+            "id": "teacher-cover",
+            "src": ""
+           },
+           "baseStyles": {
+            "display": "none",
+            "height": "100%",
+            "objectFit": "cover",
+            "objectPosition": "center",
+            "width": "100%"
+           },
+           "blockId": "51edfd590",
+           "blockName": "teacher-cover",
+           "element": "img"
+          },
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--dt-lime)",
+            "borderRadius": "8px",
+            "color": "var(--dt-ink)",
+            "display": "none",
+            "fontSize": "12px",
+            "fontWeight": "700",
+            "padding": "8px 11px",
+            "position": "absolute",
+            "right": "16px",
+            "top": "16px"
+           },
+           "blockId": "0824c6f9a",
+           "blockName": "hero-lime-label",
+           "children": [
+            {
+             "blockId": "2908e7eff",
+             "element": "span",
+             "innerHTML": "ملف المعلّم"
+            }
+           ],
+           "element": "div",
+           "mobileStyles": {
+            "position": "absolute",
+            "right": "12px",
+            "top": "12px"
+           }
+          },
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--dt-ink)",
+            "border": "1px solid rgba(255,255,255,0.28)",
+            "borderRadius": "8px",
+            "bottom": "16px",
+            "color": "var(--on-brand)",
+            "display": "none",
+            "left": "16px",
+            "maxWidth": "170px",
+            "padding": "12px",
+            "position": "absolute"
+           },
+           "blockId": "bfe054cf1",
+           "blockName": "hero-blue-info",
+           "children": [
+            {
+             "baseStyles": {
+              "fontSize": "12px",
+              "fontWeight": "600",
+              "lineHeight": "1.5"
+             },
+             "blockId": "ccab06acc",
+             "element": "span",
+             "innerHTML": "تعليم واضح، هدفه الفهم"
+            }
+           ],
+           "element": "div"
+          },
+          {
+           "attributes": {
+            "aria-label": "وسائط المعلّم"
+           },
+           "baseStyles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "gap": "12px",
+            "height": "100%",
+            "width": "100%"
+           },
+           "blockId": "513ff391a",
+           "blockName": "teacher-media-carousel",
+           "children": [
+            {
+             "baseStyles": {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "space-between",
+              "width": "100%"
+             },
+             "blockId": "63d4e51a9",
+             "blockName": "media-carousel-heading",
+             "children": [
+              {
+               "baseStyles": {
+                "color": "#1E4D42",
+                "fontFamily": "IBM Plex Sans Arabic",
+                "fontSize": "13px",
+                "fontWeight": "700",
+                "margin": "0"
+               },
+               "blockId": "75e1dc98e",
+               "element": "p",
+               "innerHTML": "من مساحة المعلّم"
+              },
+              {
+               "baseStyles": {
+                "color": "#708179",
+                "fontSize": "12px"
+               },
+               "blockId": "56dd22439",
+               "element": "span",
+               "innerHTML": "صور وفيديوهات"
+              }
+             ],
+             "element": "div"
+            },
+            {
+             "baseStyles": {
+              "display": "flex",
+              "flex": "1",
+              "gap": "12px",
+              "minHeight": "210px",
+              "overflowX": "auto",
+              "paddingBottom": "8px",
+              "scrollSnapType": "x mandatory",
+              "width": "100%"
+             },
+             "blockId": "84733f5a1",
+             "blockName": "media-scroll-track",
+             "children": [
+              {
+               "baseStyles": {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "border": "1px dashed #9ABBA5",
+                "borderRadius": "12px",
+                "display": "flex",
+                "flex": "0 0 82%",
+                "flexDirection": "column",
+                "gap": "10px",
+                "justifyContent": "center",
+                "minHeight": "210px",
+                "scrollSnapAlign": "start"
+               },
+               "blockId": "5c391bfe5",
+               "blockName": "media-photo-placeholder",
+               "children": [
+                {
+                 "baseStyles": {
+                  "alignItems": "center",
+                  "color": "#2F6B57",
+                  "display": "inline-flex",
+                  "flexShrink": 0,
+                  "height": "28px",
+                  "justifyContent": "center",
+                  "lineHeight": "0",
+                  "width": "28px"
+                 },
+                 "blockId": "e0dcca873",
+                 "blockName": "Icon: image",
+                 "children": [],
+                 "customAttributes": {
+                  "data-lucide": "image"
+                 },
+                 "element": "svg",
+                 "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <rect width=\"18\" height=\"18\" x=\"3\" y=\"3\" rx=\"2\" ry=\"2\" /> <circle cx=\"9\" cy=\"9\" r=\"2\" /> <path d=\"m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21\" /> </svg>"
+                },
+                {
+                 "baseStyles": {
+                  "color": "#1E4D42",
+                  "fontSize": "13px",
+                  "fontWeight": "700",
+                  "margin": "0"
+                 },
+                 "blockId": "50b95515e",
+                 "element": "p",
+                 "innerHTML": "صورة من شرح أو نشاط"
+                },
+                {
+                 "baseStyles": {
+                  "color": "#708179",
+                  "fontSize": "11px"
+                 },
+                 "blockId": "3499d6301",
+                 "element": "span",
+                 "innerHTML": "تظهر هنا عند إضافتها"
+                }
+               ],
+               "element": "div"
+              },
+              {
+               "baseStyles": {
+                "alignItems": "center",
+                "backgroundColor": "#EAF2E7",
+                "border": "1px dashed #9ABBA5",
+                "borderRadius": "12px",
+                "display": "flex",
+                "flex": "0 0 82%",
+                "flexDirection": "column",
+                "gap": "10px",
+                "justifyContent": "center",
+                "minHeight": "210px",
+                "scrollSnapAlign": "start"
+               },
+               "blockId": "9963e2a40",
+               "blockName": "media-video-placeholder",
+               "children": [
+                {
+                 "baseStyles": {
+                  "alignItems": "center",
+                  "color": "#2F6B57",
+                  "display": "inline-flex",
+                  "flexShrink": 0,
+                  "height": "28px",
+                  "justifyContent": "center",
+                  "lineHeight": "0",
+                  "width": "28px"
+                 },
+                 "blockId": "c899c7cb1",
+                 "blockName": "Icon: play",
+                 "children": [],
+                 "customAttributes": {
+                  "data-lucide": "play"
+                 },
+                 "element": "svg",
+                 "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z\" /> </svg>"
+                },
+                {
+                 "baseStyles": {
+                  "color": "#1E4D42",
+                  "fontSize": "13px",
+                  "fontWeight": "700",
+                  "margin": "0"
+                 },
+                 "blockId": "4dd1caa0d",
+                 "element": "p",
+                 "innerHTML": "فيديو تعريفي"
+                },
+                {
+                 "baseStyles": {
+                  "color": "#708179",
+                  "fontSize": "11px"
+                 },
+                 "blockId": "d6862a7d1",
+                 "element": "span",
+                 "innerHTML": "مكان لفيديو المعلّم"
+                }
+               ],
+               "element": "div"
+              }
+             ],
+             "classes": [
+              "teacher-media-track"
+             ],
+             "element": "div"
+            },
+            {
+             "baseStyles": {
+              "color": "#708179",
+              "fontSize": "11px",
+              "margin": "0",
+              "textAlign": "center"
+             },
+             "blockId": "2db44170c",
+             "blockName": "media-scroll-hint",
+             "element": "p",
+             "innerHTML": "اسحب لعرض المزيد من الوسائط"
+            }
+           ],
+           "classes": [
+            "teacher-media-carousel"
+           ],
+           "element": "div"
+          }
+         ],
+         "classes": [
+          "am-zoom"
+         ],
+         "element": "div",
+         "mobileStyles": {
+          "display": "flex",
+          "gridColumn": "1",
+          "gridRow": "2",
+          "minHeight": "270px",
+          "padding": "14px"
+         },
+         "tabletStyles": {
+          "minHeight": "420px"
+         }
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "gap": "28px",
+        "gridTemplateColumns": "1fr",
+        "minHeight": "auto",
+        "padding": "30px 22px"
+       },
+       "tabletStyles": {
+        "gap": "28px",
+        "gridTemplateColumns": "minmax(0,0.72fr) minmax(0,1.28fr)",
+        "minHeight": "580px",
+        "padding": "36px"
+       }
+      }
+     ],
+     "classes": [
+      "am-fade-up"
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "16px"
+     }
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--dt-lilac)",
+      "padding": "18px",
+      "width": "100%"
+     },
+     "blockId": "7ea136e6c",
+     "blockName": "feature-strip-section",
+     "children": [
+      {
+       "baseStyles": {
+        "display": "grid",
+        "gap": "14px",
+        "gridTemplateColumns": "repeat(4, minmax(0, 1fr))",
+        "margin": "0 auto",
+        "maxWidth": "1280px",
+        "width": "100%"
+       },
+       "blockId": "ffeab0e0f",
+       "blockName": "feature-strip",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "backgroundColor": "var(--dt-ink)",
+          "borderRadius": "12px",
+          "boxShadow": "0 6px 14px rgba(49,36,232,0.14)",
+          "color": "#FFFFFF",
+          "display": "flex",
+          "flexDirection": "column",
+          "hover:transform": "translateY(-3px)",
+          "justifyContent": "space-between",
+          "minHeight": "130px",
+          "padding": "18px",
+          "transition": "all 0.2s ease"
+         },
+         "blockId": "1c530d0f2",
+         "blockName": "feature-presentation-card",
+         "children": [
+          {
+           "baseStyles": {
+            "alignItems": "center",
+            "backgroundColor": "var(--dt-lime)",
+            "borderRadius": "7px",
+            "color": "var(--dt-ink)",
+            "display": "flex",
+            "fontSize": "11px",
+            "fontWeight": "700",
+            "height": "25px",
+            "justifyContent": "center",
+            "minWidth": "31px",
+            "padding": "2px 7px"
+           },
+           "blockId": "b29a7b505",
+           "dynamicValues": [
+            {
+             "key": "number",
+             "property": "innerHTML",
+             "type": "key"
+            }
+           ],
+           "element": "span"
+          },
+          {
+           "baseStyles": {
+            "color": "var(--on-brand)",
+            "fontFamily": "var(--dt-font-heading)",
+            "fontSize": "18px",
+            "fontWeight": "600",
+            "letterSpacing": "0",
+            "lineHeight": "1.45",
+            "margin": "15px 0 0"
+           },
+           "blockId": "06b2f4684",
+           "dynamicValues": [
+            {
+             "key": "title",
+             "property": "innerHTML",
+             "type": "key"
+            }
+           ],
+           "element": "h3"
+          }
+         ],
+         "classes": [
+          "am-hover-lift"
+         ],
+         "element": "div"
+        }
+       ],
+       "dataKey": {
+        "key": "presentation_features",
+        "property": "innerHTML",
+        "type": "key"
+       },
+       "element": "div",
+       "isRepeaterBlock": true,
+       "mobileStyles": {
+        "gap": "10px",
+        "gridTemplateColumns": "1fr 1fr"
+       },
+       "tabletStyles": {
+        "gridTemplateColumns": "repeat(2, minmax(0, 1fr))"
+       }
+      }
+     ],
+     "classes": [
+      "am-fade-up",
+      "am-delay-1"
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "16px"
+     }
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--dt-lilac)",
+      "padding": "32px 18px 18px",
+      "width": "100%"
+     },
+     "blockId": "2db699c2c",
+     "blockName": "about-and-highlight-section",
+     "children": [
+      {
+       "baseStyles": {
+        "display": "grid",
+        "gap": "18px",
+        "gridTemplateColumns": "minmax(0, 1fr) minmax(0, 1fr)",
+        "margin": "0 auto",
+        "maxWidth": "1280px",
+        "width": "100%"
+       },
+       "blockId": "1c9213fd2",
+       "blockName": "editorial-content-grid",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "backgroundColor": "var(--dt-paper)",
+          "border": "1px solid #D9D5F2",
+          "borderColor": "#D7E2D4",
+          "borderRadius": "12px",
+          "boxShadow": "0 8px 20px rgba(30,77,66,0.08)",
+          "display": "flex",
+          "flexDirection": "column",
+          "minHeight": "420px",
+          "padding": "34px"
+         },
+         "blockId": "9b19b5d54",
+         "blockName": "about-teacher-card",
+         "children": [
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--dt-lime)",
+            "borderRadius": "7px",
+            "color": "var(--dt-ink)",
+            "fontSize": "12px",
+            "fontWeight": "700",
+            "marginBottom": "17px",
+            "padding": "6px 10px"
+           },
+           "blockId": "dba5e0dd3",
+           "blockName": "about-label",
+           "element": "span",
+           "innerHTML": "عن المعلّم"
+          },
+          {
+           "baseStyles": {
+            "color": "var(--dt-ink)",
+            "fontFamily": "var(--dt-font-heading)",
+            "fontSize": "38px",
+            "fontWeight": "700",
+            "letterSpacing": "0",
+            "lineHeight": "1.25",
+            "margin": "0 0 18px",
+            "maxWidth": "12ch"
+           },
+           "blockId": "ddc10e8b2",
+           "element": "h2",
+           "innerHTML": "طريقة تدريس تبني الفهم، لا الحفظ.",
+           "mobileStyles": {
+            "fontSize": "30px"
+           }
+          },
+          {
+           "attributes": {
+            "data-teacher-bio": "true"
+           },
+           "baseStyles": {
+            "color": "#6B6F66",
+            "fontSize": "15px",
+            "margin": "0 0 20px",
+            "minHeight": "1px"
+           },
+           "blockId": "3652c328c",
+           "blockName": "teacher-bio-secondary",
+           "element": "p"
+          },
+          {
+           "baseStyles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "gap": "10px",
+            "width": "100%"
+           },
+           "blockId": "7a0a78f5b",
+           "blockName": "method-points",
+           "children": [
+            {
+             "baseStyles": {
+              "backgroundColor": "#EAF2E7",
+              "borderColor": "#BFD2BA",
+              "borderRight": "4px solid var(--dt-lime)",
+              "color": "#1E4D42",
+              "fontSize": "14px",
+              "fontWeight": "500",
+              "margin": "0",
+              "padding": "9px 12px"
+             },
+             "blockId": "e9a7f6852",
+             "element": "p",
+             "innerHTML": "نبدأ من الأساس ونبني عليه بهدوء."
+            },
+            {
+             "baseStyles": {
+              "backgroundColor": "#EAF2E7",
+              "borderColor": "#BFD2BA",
+              "borderRight": "4px solid var(--dt-lime)",
+              "color": "#1E4D42",
+              "fontSize": "14px",
+              "fontWeight": "500",
+              "margin": "0",
+              "padding": "9px 12px"
+             },
+             "blockId": "15853d4d4",
+             "element": "p",
+             "innerHTML": "أمثلة وتمارين بعد كل فكرة."
+            },
+            {
+             "baseStyles": {
+              "backgroundColor": "#EAF2E7",
+              "borderColor": "#BFD2BA",
+              "borderRight": "4px solid var(--dt-lime)",
+              "color": "#1E4D42",
+              "fontSize": "14px",
+              "fontWeight": "500",
+              "margin": "0",
+              "padding": "9px 12px"
+             },
+             "blockId": "0deaf5e0e",
+             "element": "p",
+             "innerHTML": "مراجعة دورية تثبّت ما تعلّمته."
+            }
+           ],
+           "element": "div"
+          }
+         ],
+         "classes": [
+          "am-hover-lift"
+         ],
+         "element": "article",
+         "mobileStyles": {
+          "minHeight": "auto",
+          "padding": "24px"
+         }
+        },
+        {
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "backgroundColor": "var(--dt-ink)",
+          "borderRadius": "12px",
+          "boxShadow": "0 8px 18px rgba(49,36,232,0.18)",
+          "color": "#FFFFFF",
+          "display": "flex",
+          "flexDirection": "column",
+          "minHeight": "420px",
+          "padding": "34px"
+         },
+         "blockId": "c5b279892",
+         "blockName": "presentation-highlight-card",
+         "children": [
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--dt-lime)",
+            "borderRadius": "7px",
+            "color": "var(--dt-ink)",
+            "fontSize": "12px",
+            "fontWeight": "700",
+            "marginBottom": "17px",
+            "padding": "6px 10px"
+           },
+           "blockId": "8d59c0b82",
+           "element": "span",
+           "innerHTML": "لماذا تنضم؟"
+          },
+          {
+           "baseStyles": {
+            "color": "var(--on-brand)",
+            "fontFamily": "var(--dt-font-heading)",
+            "fontSize": "38px",
+            "fontWeight": "700",
+            "lineHeight": "1.25",
+            "margin": "0 0 16px",
+            "maxWidth": "12ch"
+           },
+           "blockId": "1925ccfdd",
+           "element": "h2",
+           "innerHTML": "كل ما تحتاجه لتتقدّم، في مكان واحد.",
+           "mobileStyles": {
+            "fontSize": "30px"
+           }
+          },
+          {
+           "baseStyles": {
+            "color": "rgba(255,255,255,0.82)",
+            "fontSize": "15px",
+            "lineHeight": "1.8",
+            "margin": "0 0 18px"
+           },
+           "blockId": "0b97f59aa",
+           "element": "p",
+           "innerHTML": "انضم إلى المجموعة المناسبة لمرحلتك، وتابع دروسك بانتظام مع شرح منظّم ومتابعة قريبة."
+          },
+          {
+           "baseStyles": {
+            "display": "grid",
+            "gap": "8px",
+            "gridTemplateColumns": "1fr 1fr",
+            "marginBottom": "20px",
+            "width": "100%"
+           },
+           "blockId": "7f47e9b50",
+           "blockName": "principle-tiles",
+           "children": [
+            {
+             "baseStyles": {
+              "border": "1px solid rgba(255,255,255,0.30)",
+              "borderRadius": "7px",
+              "color": "var(--on-brand)",
+              "fontSize": "12px",
+              "padding": "8px"
+             },
+             "blockId": "039707445",
+             "element": "span",
+             "innerHTML": "دروس منظّمة حسب المنهج"
+            },
+            {
+             "baseStyles": {
+              "border": "1px solid rgba(255,255,255,0.30)",
+              "borderRadius": "7px",
+              "color": "var(--on-brand)",
+              "fontSize": "12px",
+              "padding": "8px"
+             },
+             "blockId": "1a9cbf0bd",
+             "element": "span",
+             "innerHTML": "مواد ومراجعات داعمة"
+            },
+            {
+             "baseStyles": {
+              "border": "1px solid rgba(255,255,255,0.30)",
+              "borderRadius": "7px",
+              "color": "var(--on-brand)",
+              "fontSize": "12px",
+              "padding": "8px"
+             },
+             "blockId": "c222eb037",
+             "element": "span",
+             "innerHTML": "تواصل مباشر مع المعلّم"
+            },
+            {
+             "baseStyles": {
+              "border": "1px solid rgba(255,255,255,0.30)",
+              "borderRadius": "7px",
+              "color": "var(--on-brand)",
+              "fontSize": "12px",
+              "padding": "8px"
+             },
+             "blockId": "7897fd3d4",
+             "element": "span",
+             "innerHTML": "تقييم مستمر لمستواك"
+            }
+           ],
+           "element": "div",
+           "mobileStyles": {
+            "gridTemplateColumns": "1fr"
+           }
+          },
+          {
+           "attributes": {
+            "href": "#المجموعات-المتاحة",
+            "rel": "noopener noreferrer"
+           },
+           "baseStyles": {
+            "alignItems": "center",
+            "backgroundColor": "var(--dt-lime)",
+            "borderRadius": "10px",
+            "color": "var(--dt-ink)",
+            "display": "flex",
+            "fontSize": "14px",
+            "fontWeight": "700",
+            "justifyContent": "center",
+            "marginTop": "auto",
+            "minHeight": "48px",
+            "padding": "12px 19px",
+            "textDecoration": "none"
+           },
+           "blockId": "3f68e88f3",
+           "blockName": "highlight-groups-cta",
+           "classes": [
+            "am-btn"
+           ],
+           "element": "a",
+           "innerHTML": "اختر مجموعتك"
+          }
+         ],
+         "element": "article",
+         "mobileStyles": {
+          "minHeight": "auto",
+          "padding": "24px"
+         }
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "gridTemplateColumns": "1fr"
+       }
+      }
+     ],
+     "classes": [
+      "am-fade-up",
+      "am-delay-2"
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "24px 16px 16px"
+     }
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--dt-lilac)",
+      "padding": "32px 18px 18px",
+      "width": "100%"
+     },
+     "blockId": "b86bed351",
+     "blockName": "support-section",
+     "children": [
+      {
+       "baseStyles": {
+        "margin": "0 auto",
+        "maxWidth": "1280px",
+        "width": "100%"
+       },
+       "blockId": "4758dd1ff",
+       "blockName": "support-inner",
+       "children": [
+        {
+         "baseStyles": {
+          "color": "var(--dt-ink)",
+          "fontFamily": "var(--dt-font-heading)",
+          "fontSize": "38px",
+          "fontWeight": "700",
+          "lineHeight": "1.25",
+          "margin": "0 0 18px"
+         },
+         "blockId": "f1279bb16",
+         "element": "h2",
+         "innerHTML": "معك في كل خطوة",
+         "mobileStyles": {
+          "fontSize": "30px"
+         }
+        },
+        {
+         "baseStyles": {
+          "display": "grid",
+          "gap": "14px",
+          "gridTemplateColumns": "repeat(4, minmax(0, 1fr))"
+         },
+         "blockId": "1bd369228",
+         "blockName": "support-grid",
+         "children": [
+          {
+           "baseStyles": {
+            "backgroundColor": "var(--dt-paper)",
+            "border": "1px solid #D9D5F2",
+            "borderColor": "#D7E2D4",
+            "borderRadius": "12px",
+            "boxShadow": "0 8px 20px rgba(30,77,66,0.08)",
+            "display": "flex",
+            "flexDirection": "column",
+            "hover:transform": "translateY(-3px)",
+            "minHeight": "190px",
+            "padding": "21px",
+            "transition": "all 0.2s ease"
+           },
+           "blockId": "d15baf1e4",
+           "blockName": "support-card",
+           "children": [
+            {
+             "baseStyles": {
+              "alignItems": "center",
+              "backgroundColor": "var(--dt-lime)",
+              "borderRadius": "7px",
+              "color": "var(--dt-ink)",
+              "display": "flex",
+              "fontSize": "20px",
+              "fontWeight": "700",
+              "height": "28px",
+              "justifyContent": "center",
+              "marginBottom": "17px",
+              "width": "28px"
+             },
+             "blockId": "5ef5855f8",
+             "element": "span",
+             "innerHTML": "+"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--dt-ink)",
+              "fontFamily": "var(--dt-font-heading)",
+              "fontSize": "19px",
+              "fontWeight": "700",
+              "margin": "0 0 8px"
+             },
+             "blockId": "1d00ea2ab",
+             "dynamicValues": [
+              {
+               "key": "title",
+               "property": "innerHTML",
+               "type": "key"
+              }
+             ],
+             "element": "h3"
+            },
+            {
+             "baseStyles": {
+              "color": "#6B6F66",
+              "fontSize": "14px",
+              "lineHeight": "1.7",
+              "margin": "0"
+             },
+             "blockId": "f93a7e5e3",
+             "dynamicValues": [
+              {
+               "key": "body",
+               "property": "innerHTML",
+               "type": "key"
+              }
+             ],
+             "element": "p"
+            }
+           ],
+           "classes": [
+            "am-hover-lift"
+           ],
+           "element": "article"
+          }
+         ],
+         "dataKey": {
+          "key": "support_items",
+          "property": "innerHTML",
+          "type": "key"
+         },
+         "element": "div",
+         "isRepeaterBlock": true,
+         "mobileStyles": {
+          "gridTemplateColumns": "1fr"
+         },
+         "tabletStyles": {
+          "gridTemplateColumns": "repeat(2, minmax(0, 1fr))"
+         }
+        }
+       ],
+       "element": "div"
+      }
+     ],
+     "classes": [
+      "am-fade-up",
+      "am-delay-3"
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "24px 16px 16px"
+     }
+    },
+    {
+     "attributes": {
+      "data-groups-source": "groups",
+      "id": "المجموعات-المتاحة"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--dt-lilac)",
+      "padding": "32px 18px 18px",
+      "width": "100%"
+     },
+     "blockId": "67d579b15",
+     "blockName": "teacher-groups-section",
+     "children": [
+      {
+       "baseStyles": {
+        "backgroundColor": "var(--dt-paper)",
+        "border": "1px solid #D9D5F2",
+        "borderColor": "#D7E2D4",
+        "borderRadius": "14px",
+        "boxShadow": "0 8px 20px rgba(30,77,66,0.08)",
+        "margin": "0 auto",
+        "maxWidth": "1280px",
+        "padding": "30px",
+        "width": "100%"
+       },
+       "blockId": "385a85a43",
+       "blockName": "groups-modular-board",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "flex-end",
+          "display": "flex",
+          "flexWrap": "wrap",
+          "gap": "16px",
+          "justifyContent": "space-between",
+          "marginBottom": "22px"
+         },
+         "blockId": "41793d925",
+         "blockName": "groups-heading-row",
+         "children": [
+          {
+           "blockId": "153cda4f6",
+           "blockName": "groups-heading-copy",
+           "children": [
+            {
+             "baseStyles": {
+              "backgroundColor": "var(--dt-lime)",
+              "borderRadius": "7px",
+              "color": "var(--dt-ink)",
+              "display": "inline-block",
+              "fontSize": "12px",
+              "fontWeight": "700",
+              "marginBottom": "8px",
+              "padding": "5px 9px"
+             },
+             "blockId": "2459132b2",
+             "element": "span",
+             "innerHTML": "المجموعات المتاحة"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--dt-ink)",
+              "fontFamily": "var(--dt-font-heading)",
+              "fontSize": "38px",
+              "fontWeight": "700",
+              "lineHeight": "1.25",
+              "margin": "0"
+             },
+             "blockId": "12e30fc12",
+             "element": "h2",
+             "innerHTML": "اختر المجموعة التي تناسب مرحلتك",
+             "mobileStyles": {
+              "fontSize": "28px"
+             }
+            }
+           ],
+           "element": "div"
+          }
+         ],
+         "element": "div"
+        },
+        {
+         "attributes": {
+          "data-group-filters": "true"
+         },
+         "baseStyles": {
+          "display": "grid",
+          "gap": "10px",
+          "gridTemplateColumns": "repeat(3, minmax(0, 1fr))",
+          "marginBottom": "24px"
+         },
+         "blockId": "d8b7f0786",
+         "blockName": "group-filters",
+         "children": [
+          {
+           "attributes": {
+            "data-filter-dim": "grade",
+            "open": ""
+           },
+           "baseStyles": {
+            "backgroundColor": "#F5F8F1",
+            "border": "1px solid #D9D5F2",
+            "borderColor": "#D7E2D4",
+            "borderRadius": "9px"
+           },
+           "blockId": "3a609231e",
+           "blockName": "grade-filter",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "var(--dt-ink)",
+              "cursor": "pointer",
+              "fontSize": "14px",
+              "fontWeight": "700",
+              "padding": "12px"
+             },
+             "blockId": "4eb41a212",
+             "element": "summary",
+             "innerHTML": "الصف +"
+            },
+            {
+             "baseStyles": {
+              "padding": "0 10px 10px"
+             },
+             "blockId": "218ab9a1d",
+             "blockName": "filter-options",
+             "children": [
+              {
+               "attributes": {
+                "data-count": "0",
+                "data-filter-value": "الثالث",
+                "type": "button"
+               },
+               "baseStyles": {
+                "backgroundColor": "var(--dt-paper)",
+                "border": "1px solid #D9D5F2",
+                "borderRadius": "7px",
+                "color": "var(--dt-ink)",
+                "fontFamily": "var(--dt-font-body)",
+                "fontSize": "13px",
+                "minHeight": "40px",
+                "width": "100%"
+               },
+               "blockId": "e71245133",
+               "blockName": "grade-filter-option",
+               "element": "button",
+               "innerHTML": "الثالث 0"
+              }
+             ],
+             "element": "div"
+            }
+           ],
+           "element": "details"
+          },
+          {
+           "attributes": {
+            "data-filter-dim": "stage"
+           },
+           "baseStyles": {
+            "backgroundColor": "#F5F8F1",
+            "border": "1px solid #D9D5F2",
+            "borderColor": "#D7E2D4",
+            "borderRadius": "9px"
+           },
+           "blockId": "34b0dd33d",
+           "blockName": "stage-filter",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "var(--dt-ink)",
+              "cursor": "pointer",
+              "fontSize": "14px",
+              "fontWeight": "700",
+              "padding": "12px"
+             },
+             "blockId": "ad40ae293",
+             "element": "summary",
+             "innerHTML": "المرحلة +"
+            },
+            {
+             "baseStyles": {
+              "padding": "0 10px 10px"
+             },
+             "blockId": "e30dfe53e",
+             "blockName": "filter-options",
+             "children": [
+              {
+               "attributes": {
+                "data-count": "0",
+                "data-filter-value": "الثانوي",
+                "type": "button"
+               },
+               "baseStyles": {
+                "backgroundColor": "var(--dt-paper)",
+                "border": "1px solid #D9D5F2",
+                "borderRadius": "7px",
+                "color": "var(--dt-ink)",
+                "fontFamily": "var(--dt-font-body)",
+                "fontSize": "13px",
+                "minHeight": "40px",
+                "width": "100%"
+               },
+               "blockId": "b7334a94b",
+               "blockName": "stage-filter-option",
+               "element": "button",
+               "innerHTML": "الثانوي 0"
+              }
+             ],
+             "element": "div"
+            }
+           ],
+           "element": "details"
+          },
+          {
+           "attributes": {
+            "data-filter-dim": "subject"
+           },
+           "baseStyles": {
+            "backgroundColor": "#F5F8F1",
+            "border": "1px solid #D9D5F2",
+            "borderColor": "#D7E2D4",
+            "borderRadius": "9px"
+           },
+           "blockId": "d11eda34e",
+           "blockName": "subject-filter",
+           "children": [
+            {
+             "baseStyles": {
+              "color": "var(--dt-ink)",
+              "cursor": "pointer",
+              "fontSize": "14px",
+              "fontWeight": "700",
+              "padding": "12px"
+             },
+             "blockId": "685235310",
+             "element": "summary",
+             "innerHTML": "المادة +"
+            },
+            {
+             "baseStyles": {
+              "padding": "0 10px 10px"
+             },
+             "blockId": "6205634d8",
+             "blockName": "filter-options",
+             "children": [
+              {
+               "attributes": {
+                "data-count": "0",
+                "data-filter-value": "رياضيات",
+                "type": "button"
+               },
+               "baseStyles": {
+                "backgroundColor": "var(--dt-paper)",
+                "border": "1px solid #D9D5F2",
+                "borderRadius": "7px",
+                "color": "var(--dt-ink)",
+                "fontFamily": "var(--dt-font-body)",
+                "fontSize": "13px",
+                "minHeight": "40px",
+                "width": "100%"
+               },
+               "blockId": "8ed727fca",
+               "blockName": "subject-filter-option",
+               "element": "button",
+               "innerHTML": "رياضيات 0"
+              }
+             ],
+             "element": "div"
+            }
+           ],
+           "element": "details"
+          }
+         ],
+         "element": "div",
+         "mobileStyles": {
+          "gridTemplateColumns": "1fr"
+         }
+        },
+        {
+         "attributes": {
+          "data-groups-list": "true",
+          "data-groups-repeater-target": "true"
+         },
+         "baseStyles": {
+          "display": "grid",
+          "gap": "18px",
+          "gridTemplateColumns": "repeat(3, minmax(0, 1fr))"
+         },
+         "blockId": "631d60656",
+         "blockName": "teacher-groups-list",
+         "children": [
+          {
+           "attributes": {
+            "data-group-template-container": "true"
+           },
+           "baseStyles": {
+            "display": "contents"
+           },
+           "blockId": "baa83306a",
+           "blockName": "group-template-container",
+           "children": [
+            {
+             "attributes": {
+              "data-group-card": "true",
+              "data-group-template": "true"
+             },
+             "baseStyles": {
+              "backgroundColor": "var(--dt-paper)",
+              "border": "1px solid #D9D5F2",
+              "borderColor": "#D7E2D4",
+              "borderRadius": "12px",
+              "boxShadow": "0 8px 20px rgba(30,77,66,0.08)",
+              "display": "flex",
+              "flexDirection": "column",
+              "gap": "14px",
+              "minWidth": "0",
+              "padding": "20px"
+             },
+             "blockId": "c3b6946ec",
+             "blockName": "teacher-group-card",
+             "children": [
+              {
+               "attributes": {
+                "data-group-subject": "true"
+               },
+               "baseStyles": {
+                "alignSelf": "flex-start",
+                "backgroundColor": "var(--dt-ink)",
+                "borderRadius": "6px",
+                "color": "var(--on-brand)",
+                "fontSize": "12px",
+                "fontWeight": "700",
+                "padding": "5px 9px"
+               },
+               "blockId": "052435d30",
+               "blockName": "group-category",
+               "element": "span",
+               "innerHTML": "المادة"
+              },
+              {
+               "attributes": {
+                "data-group-title": "true"
+               },
+               "baseStyles": {
+                "color": "#1F2254",
+                "fontFamily": "var(--dt-font-heading)",
+                "fontSize": "22px",
+                "fontWeight": "700",
+                "lineHeight": "1.35",
+                "margin": "0"
+               },
+               "blockId": "2414bff1a",
+               "blockName": "group-title",
+               "element": "h3",
+               "innerHTML": "اسم المجموعة"
+              },
+              {
+               "attributes": {
+                "data-group-meta": "true"
+               },
+               "baseStyles": {
+                "color": "#6B6F66",
+                "fontSize": "14px",
+                "margin": "0"
+               },
+               "blockId": "1a489e94e",
+               "blockName": "group-meta",
+               "element": "p",
+               "innerHTML": "المرحلة والصف"
+              },
+              {
+               "attributes": {
+                "data-group-availability": "true"
+               },
+               "baseStyles": {
+                "backgroundColor": "#EAF2E7",
+                "borderColor": "#BFD2BA",
+                "borderRadius": "7px",
+                "color": "#1E4D42",
+                "fontSize": "12px",
+                "fontWeight": "700",
+                "padding": "7px 10px"
+               },
+               "blockId": "1ee6de883",
+               "blockName": "group-availability",
+               "children": [
+                {
+                 "attributes": {
+                  "data-group-seats": "true"
+                 },
+                 "baseStyles": {
+                  "backgroundColor": "var(--dt-lime)",
+                  "borderRadius": "99px",
+                  "color": "transparent",
+                  "display": "block",
+                  "height": "5px",
+                  "width": "100%"
+                 },
+                 "blockId": "74f22d3db",
+                 "element": "span",
+                 "innerHTML": "المقاعد المتاحة"
+                }
+               ],
+               "element": "div"
+              },
+              {
+               "attributes": {
+                "data-group-apply": "true",
+                "href": "#التسجيل",
+                "rel": "noopener noreferrer"
+               },
+               "baseStyles": {
+                "alignItems": "center",
+                "backgroundColor": "var(--dt-ink)",
+                "borderRadius": "9px",
+                "color": "var(--on-brand)",
+                "display": "flex",
+                "fontSize": "14px",
+                "fontWeight": "700",
+                "justifyContent": "center",
+                "marginTop": "auto",
+                "minHeight": "48px",
+                "textDecoration": "none",
+                "width": "100%"
+               },
+               "blockId": "2d4d3799e",
+               "blockName": "group-apply",
+               "classes": [
+                "am-btn"
+               ],
+               "element": "a",
+               "innerHTML": "اختيار هذه المجموعة"
+              }
+             ],
+             "classes": [
+              "am-glow",
+              "am-hover-lift"
+             ],
+             "element": "article"
+            }
+           ],
+           "element": "div"
+          }
+         ],
+         "element": "div",
+         "mobileStyles": {
+          "gridTemplateColumns": "1fr"
+         },
+         "tabletStyles": {
+          "gridTemplateColumns": "repeat(2, minmax(0, 1fr))"
+         }
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "padding": "20px"
+       }
+      }
+     ],
+     "classes": [
+      "am-fade-up"
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "24px 16px 16px"
+     }
+    },
+    {
+     "attributes": {
+      "id": "التسجيل"
+     },
+     "baseStyles": {
+      "backgroundColor": "var(--dt-lilac)",
+      "padding": "32px 18px 18px",
+      "width": "100%"
+     },
+     "blockId": "36944390c",
+     "blockName": "corals-signup-section",
+     "children": [
+      {
+       "baseStyles": {
+        "alignItems": "start",
+        "backgroundColor": "var(--on-brand,#FFFFFF)",
+        "border": "1px solid #E2DDD0",
+        "borderColor": "#D7E2D4",
+        "borderRadius": "32px",
+        "boxShadow": "0 8px 20px rgba(30,77,66,0.08)",
+        "display": "grid",
+        "gap": "32px",
+        "gridTemplateColumns": "minmax(0, 1.08fr) minmax(360px, 0.92fr)",
+        "margin": "0 auto",
+        "maxWidth": "1280px",
+        "padding": "44px",
+        "width": "100%"
+       },
+       "blockId": "3338471b6",
+       "blockName": "signup-content",
+       "children": [
+        {
+         "baseStyles": {
+          "alignItems": "flex-start",
+          "alignSelf": "stretch",
+          "backgroundColor": "#F5F8F1",
+          "border": "0",
+          "borderColor": "#D7E2D4",
+          "borderRadius": "22px",
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": "18px",
+          "justifyContent": "center",
+          "minHeight": "420px",
+          "overflow": "hidden",
+          "padding": "42px",
+          "position": "relative"
+         },
+         "blockId": "a01f51005",
+         "blockName": "corals-image-panel",
+         "children": [
+          {
+           "baseStyles": {
+            "alignItems": "flex-start",
+            "display": "flex",
+            "flexDirection": "column",
+            "gap": "18px",
+            "maxWidth": "420px",
+            "width": "100%"
+           },
+           "blockId": "cda50f28c",
+           "blockName": "application-assistance-panel",
+           "children": [
+            {
+             "baseStyles": {
+              "backgroundColor": "#EAF2E7",
+              "borderColor": "#BFD2BA",
+              "borderRadius": "999px",
+              "color": "#1E4D42",
+              "fontFamily": "IBM Plex Sans Arabic",
+              "fontSize": "12px",
+              "fontWeight": "700",
+              "letterSpacing": "0",
+              "padding": "7px 12px"
+             },
+             "blockId": "fb6d576bb",
+             "blockName": "application-step-label",
+             "element": "span",
+             "innerHTML": "خطوة بسيطة نحو البداية"
+            },
+            {
+             "baseStyles": {
+              "color": "var(--brand,#1E2A1E)",
+              "fontFamily": "IBM Plex Sans Arabic",
+              "fontSize": "clamp(1.7rem,2.5vw,2.25rem)",
+              "fontWeight": "500",
+              "letterSpacing": "0",
+              "lineHeight": "1.35",
+              "margin": "0"
+             },
+             "blockId": "375eada00",
+             "blockName": "application-panel-heading",
+             "element": "h3",
+             "innerHTML": "اختر مجموعتك، وأرسل طلبك في دقيقة."
+            },
+            {
+             "baseStyles": {
+              "color": "#6B6F66",
+              "fontFamily": "IBM Plex Sans Arabic",
+              "fontSize": "15px",
+              "letterSpacing": "0",
+              "lineHeight": "1.85",
+              "margin": "0",
+              "maxWidth": "34ch"
+             },
+             "blockId": "063b0c779",
+             "blockName": "application-panel-copy",
+             "element": "p",
+             "innerHTML": "سيظهر اسم المجموعة هنا بعد الاختيار. نراجع طلبك ونتواصل معك قريبًا."
+            },
+            {
+             "baseStyles": {
+              "display": "flex",
+              "flexDirection": "column",
+              "gap": "10px",
+              "marginTop": "4px",
+              "width": "100%"
+             },
+             "blockId": "9a038cfcf",
+             "blockName": "application-panel-benefits",
+             "children": [
+              {
+               "baseStyles": {
+                "backgroundColor": "var(--on-brand,#FFFFFF)",
+                "border": "1px solid #E2DDD0",
+                "borderRadius": "14px",
+                "color": "var(--brand,#1E2A1E)",
+                "fontFamily": "IBM Plex Sans Arabic",
+                "fontSize": "14px",
+                "fontWeight": "500",
+                "letterSpacing": "0",
+                "margin": "0",
+                "padding": "12px 14px",
+                "width": "100%"
+               },
+               "blockId": "8e15d4bb4",
+               "element": "p",
+               "innerHTML": "اختيار واضح للمجموعة المناسبة"
+              },
+              {
+               "baseStyles": {
+                "backgroundColor": "var(--on-brand,#FFFFFF)",
+                "border": "1px solid #E2DDD0",
+                "borderRadius": "14px",
+                "color": "var(--brand,#1E2A1E)",
+                "fontFamily": "IBM Plex Sans Arabic",
+                "fontSize": "14px",
+                "fontWeight": "500",
+                "letterSpacing": "0",
+                "margin": "0",
+                "padding": "12px 14px",
+                "width": "100%"
+               },
+               "blockId": "b6848186e",
+               "element": "p",
+               "innerHTML": "متابعة قريبة بعد إرسال الطلب"
+              }
+             ],
+             "element": "div"
+            }
+           ],
+           "element": "div"
+          },
+          {
+           "attributes": {
+            "alt": "صورة التقديم للمعلّم",
+            "data-binding": "teacher_cover",
+            "data-teacher-application-image": "true",
+            "src": ""
+           },
+           "baseStyles": {
+            "display": "none",
+            "height": "100%",
+            "objectFit": "cover",
+            "width": "100%"
+           },
+           "blockId": "e30747ee7",
+           "blockName": "furniture-editorial-image",
+           "element": "img",
+           "mobileStyles": {
+            "display": "none"
+           }
+          }
+         ],
+         "element": "div",
+         "mobileStyles": {
+          "borderRadius": "20px",
+          "gridRow": "2",
+          "minHeight": "auto",
+          "padding": "28px 22px"
+         },
+         "tabletStyles": {
+          "gridColumn": "auto",
+          "gridRow": "2",
+          "minHeight": "auto",
+          "padding": "30px"
+         }
+        },
+        {
+         "baseStyles": {
+          "minWidth": "0",
+          "padding": "4px 12px 4px 0",
+          "width": "100%"
+         },
+         "blockId": "4548e6fe6",
+         "blockName": "signup-form-wrap",
+         "children": [
+          {
+           "baseStyles": {
+            "color": "var(--brand,#1E2A1E)",
+            "fontFamily": "IBM Plex Sans Arabic",
+            "fontSize": "clamp(2rem,3vw,2.6rem)",
+            "fontWeight": "500",
+            "letterSpacing": "0",
+            "lineHeight": "1.3",
+            "margin": "0 0 8px"
+           },
+           "blockId": "11849f8e2",
+           "element": "h2",
+           "innerHTML": "أرسل طلب الانضمام",
+           "mobileStyles": {
+            "fontSize": "30px"
+           }
+          },
+          {
+           "baseStyles": {
+            "color": "#6B6F66",
+            "fontSize": "15px",
+            "lineHeight": "1.8",
+            "margin": "0 0 24px"
+           },
+           "blockId": "5fd7c4d08",
+           "element": "p",
+           "innerHTML": "سنساعدك على اختيار المجموعة الأنسب لك."
+          },
+          {
+           "attributes": {
+            "data-form": "student_group_application",
+            "data-inline-application": "",
+            "data-inline-children": "true",
+            "data-teacher-application": "true",
+            "id": "student-application-form",
+            "novalidate": ""
+           },
+           "baseStyles": {
+            "display": "flex",
+            "flexDirection": "column",
+            "gap": "14px",
+            "width": "100%"
+           },
+           "blockId": "7d923e179",
+           "blockName": "student-application-form",
+           "children": [
+            {
+             "attributes": {
+              "data-step": "applicant"
+             },
+             "baseStyles": {
+              "display": "flex",
+              "flexDirection": "column",
+              "gap": "14px"
+             },
+             "blockId": "633bcc5d7",
+             "blockName": "applicant-step",
+             "children": [
+              {
+               "attributes": {
+                "data-selected-group": "",
+                "data-selected-group-notice": "true"
+               },
+               "baseStyles": {
+                "alignItems": "center",
+                "backgroundColor": "#F5F8F1",
+                "border": "1px solid #E2DDD0",
+                "borderColor": "#D7E2D4",
+                "borderRadius": "14px",
+                "color": "#1E2A1E",
+                "display": "flex",
+                "flexWrap": "wrap",
+                "gap": "8px",
+                "justifyContent": "space-between",
+                "padding": "12px 14px"
+               },
+               "blockId": "88b06b08e",
+               "blockName": "selected-group-notice",
+               "children": [
+                {
+                 "attributes": {
+                  "data-selected-group-summary": "true"
+                 },
+                 "baseStyles": {
+                  "fontSize": "13px"
+                 },
+                 "blockId": "69cd26af6",
+                 "element": "span",
+                 "innerHTML": "لم يتم اختيار مجموعة بعد، اختر مجموعة من القائمة أعلاه"
+                },
+                {
+                 "attributes": {
+                  "data-change-group": "",
+                  "hidden": "",
+                  "href": "#groups",
+                  "rel": "noopener noreferrer"
+                 },
+                 "baseStyles": {
+                  "color": "var(--dt-ink)",
+                  "fontSize": "13px",
+                  "fontWeight": "700"
+                 },
+                 "blockId": "a18887229",
+                 "element": "a",
+                 "innerHTML": "تغيير المجموعة"
+                }
+               ],
+               "element": "div"
+              },
+              {
+               "attributes": {
+                "data-group-select": "true",
+                "data-selected-group-field": "true",
+                "required": ""
+               },
+               "baseStyles": {
+                "appearance": "none",
+                "backgroundColor": "#FFFFFF",
+                "border": "1.5px solid #E2DDD0",
+                "borderColor": "#C9D9C5",
+                "borderRadius": "14px",
+                "color": "#1E4D42",
+                "focus:borderColor": "#2F6B57",
+                "focus:boxShadow": "0 0 0 3px rgba(47,107,87,0.16)",
+                "focus:outline": "none",
+                "fontFamily": "IBM Plex Sans Arabic",
+                "fontSize": "14px",
+                "minHeight": "48px",
+                "outline": "none",
+                "padding": "0 14px",
+                "transition": "all 0.2s ease",
+                "width": "100%"
+               },
+               "blockId": "2ab37b34b",
+               "blockName": "selected-group-field",
+               "children": [
+                {
+                 "attributes": {
+                  "value": ""
+                 },
+                 "blockId": "60fb7babf",
+                 "element": "option",
+                 "innerHTML": "اختر المجموعة"
+                }
+               ],
+               "element": "select",
+               "mobileStyles": {
+                "fontSize": "16px"
+               }
+              },
+              {
+               "attributes": {
+                "data-form-error": "",
+                "hidden": ""
+               },
+               "baseStyles": {
+                "color": "#A63232",
+                "fontSize": "13px"
+               },
+               "blockId": "10b54e61e",
+               "blockName": "form-error",
+               "element": "div"
+              },
+              {
+               "baseStyles": {
+                "display": "flex",
+                "flexWrap": "wrap",
+                "gap": "10px"
+               },
+               "blockId": "42f289f2b",
+               "blockName": "role-choice-row",
+               "children": [
+                {
+                 "baseStyles": {
+                  "alignItems": "center",
+                  "backgroundColor": "#FFFFFF",
+                  "border": "1.5px solid #E2DDD0",
+                  "borderRadius": "999px",
+                  "color": "#1E2A1E",
+                  "display": "flex",
+                  "fontSize": "14px",
+                  "fontWeight": "600",
+                  "gap": "7px",
+                  "minHeight": "46px",
+                  "padding": "10px 16px"
+                 },
+                 "blockId": "3cb9e9ec8",
+                 "children": [
+                  {
+                   "attributes": {
+                    "checked": "",
+                    "data-role-option": "guardian",
+                    "data-role-toggle": "guardian",
+                    "name": "relationship_code_0",
+                    "type": "radio",
+                    "value": "guardian"
+                   },
+                   "blockId": "478b3814b",
+                   "element": "input"
+                  }
+                 ],
+                 "element": "label",
+                 "innerHTML": "ولي أمر"
+                },
+                {
+                 "baseStyles": {
+                  "alignItems": "center",
+                  "backgroundColor": "#FFFFFF",
+                  "border": "1.5px solid #E2DDD0",
+                  "borderRadius": "999px",
+                  "color": "#1E2A1E",
+                  "display": "flex",
+                  "fontSize": "14px",
+                  "fontWeight": "600",
+                  "gap": "7px",
+                  "minHeight": "46px",
+                  "padding": "10px 16px"
+                 },
+                 "blockId": "c143e9623",
+                 "children": [
+                  {
+                   "attributes": {
+                    "data-role-option": "student",
+                    "data-role-toggle": "student",
+                    "name": "relationship_code_0",
+                    "type": "radio",
+                    "value": "student"
+                   },
+                   "blockId": "b01f9c554",
+                   "element": "input"
+                  }
+                 ],
+                 "element": "label",
+                 "innerHTML": "طالب"
+                }
+               ],
+               "element": "div"
+              },
+              {
+               "attributes": {
+                "data-role-panel": "student",
+                "hidden": ""
+               },
+               "baseStyles": {
+                "display": "grid",
+                "gap": "10px",
+                "gridTemplateColumns": "1fr 1fr"
+               },
+               "blockId": "11fd3fda2",
+               "blockName": "student-role-panel",
+               "children": [
+                {
+                 "attributes": {
+                  "data-student-name": "",
+                  "type": "text"
+                 },
+                 "baseStyles": {
+                  "backgroundColor": "#FFFFFF",
+                  "border": "1.5px solid #E2DDD0",
+                  "borderColor": "#C9D9C5",
+                  "borderRadius": "14px",
+                  "color": "#1E4D42",
+                  "focus:borderColor": "#2F6B57",
+                  "focus:boxShadow": "0 0 0 3px rgba(47,107,87,0.16)",
+                  "focus:outline": "none",
+                  "fontFamily": "IBM Plex Sans Arabic",
+                  "fontSize": "14px",
+                  "minHeight": "48px",
+                  "padding": "0 14px",
+                  "width": "100%"
+                 },
+                 "blockId": "f51fef0b9",
+                 "element": "input"
+                },
+                {
+                 "attributes": {
+                  "data-student-phone": "",
+                  "dir": "ltr",
+                  "type": "tel"
+                 },
+                 "baseStyles": {
+                  "backgroundColor": "#FFFFFF",
+                  "border": "1.5px solid #E2DDD0",
+                  "borderColor": "#C9D9C5",
+                  "borderRadius": "14px",
+                  "color": "#1E4D42",
+                  "focus:borderColor": "#2F6B57",
+                  "focus:boxShadow": "0 0 0 3px rgba(47,107,87,0.16)",
+                  "focus:outline": "none",
+                  "fontFamily": "IBM Plex Sans Arabic",
+                  "fontSize": "14px",
+                  "minHeight": "48px",
+                  "padding": "0 14px",
+                  "textAlign": "left",
+                  "width": "100%"
+                 },
+                 "blockId": "52d487ee2",
+                 "element": "input"
+                },
+                {
+                 "attributes": {
+                  "data-student-stage": ""
+                 },
+                 "baseStyles": {
+                  "appearance": "none",
+                  "backgroundColor": "#FFFFFF",
+                  "border": "1.5px solid #E2DDD0",
+                  "borderColor": "#C9D9C5",
+                  "borderRadius": "14px",
+                  "color": "#1E4D42",
+                  "focus:borderColor": "#2F6B57",
+                  "focus:boxShadow": "0 0 0 3px rgba(47,107,87,0.16)",
+                  "focus:outline": "none",
+                  "fontFamily": "IBM Plex Sans Arabic",
+                  "fontSize": "14px",
+                  "minHeight": "48px",
+                  "padding": "0 14px",
+                  "width": "100%"
+                 },
+                 "blockId": "eb466beb0",
+                 "children": [
+                  {
+                   "attributes": {
+                    "value": ""
+                   },
+                   "blockId": "69c4221d4",
+                   "element": "option",
+                   "innerHTML": "اختر المرحلة"
+                  }
+                 ],
+                 "element": "select",
+                 "mobileStyles": {
+                  "fontSize": "16px"
+                 }
+                },
+                {
+                 "attributes": {
+                  "data-student-grade": "",
+                  "disabled": ""
+                 },
+                 "baseStyles": {
+                  "appearance": "none",
+                  "backgroundColor": "#FFFFFF",
+                  "border": "1.5px solid #E2DDD0",
+                  "borderColor": "#C9D9C5",
+                  "borderRadius": "14px",
+                  "color": "#1E4D42",
+                  "focus:borderColor": "#2F6B57",
+                  "focus:boxShadow": "0 0 0 3px rgba(47,107,87,0.16)",
+                  "focus:outline": "none",
+                  "fontFamily": "IBM Plex Sans Arabic",
+                  "fontSize": "14px",
+                  "minHeight": "48px",
+                  "padding": "0 14px",
+                  "width": "100%"
+                 },
+                 "blockId": "d8a3368e1",
+                 "children": [
+                  {
+                   "attributes": {
+                    "value": ""
+                   },
+                   "blockId": "b446fce1e",
+                   "element": "option",
+                   "innerHTML": "اختر المرحلة أولًا"
+                  }
+                 ],
+                 "element": "select",
+                 "mobileStyles": {
+                  "fontSize": "16px"
+                 }
+                }
+               ],
+               "element": "div",
+               "mobileStyles": {
+                "gridTemplateColumns": "1fr"
+               }
+              },
+              {
+               "attributes": {
+                "data-role-panel": "guardian"
+               },
+               "baseStyles": {
+                "display": "flex",
+                "flexDirection": "column",
+                "gap": "10px"
+               },
+               "blockId": "5d1127a9b",
+               "blockName": "guardian-role-panel",
+               "children": [
+                {
+                 "attributes": {
+                  "data-guardian-name": "",
+                  "type": "text"
+                 },
+                 "baseStyles": {
+                  "backgroundColor": "#FFFFFF",
+                  "border": "1.5px solid #E2DDD0",
+                  "borderColor": "#C9D9C5",
+                  "borderRadius": "14px",
+                  "color": "#1E4D42",
+                  "focus:borderColor": "#2F6B57",
+                  "focus:boxShadow": "0 0 0 3px rgba(47,107,87,0.16)",
+                  "focus:outline": "none",
+                  "fontFamily": "IBM Plex Sans Arabic",
+                  "fontSize": "14px",
+                  "minHeight": "48px",
+                  "padding": "0 14px",
+                  "width": "100%"
+                 },
+                 "blockId": "3caccaee3",
+                 "element": "input"
+                },
+                {
+                 "attributes": {
+                  "data-guardian-phone": "",
+                  "dir": "ltr",
+                  "type": "tel"
+                 },
+                 "baseStyles": {
+                  "backgroundColor": "#FFFFFF",
+                  "border": "1.5px solid #E2DDD0",
+                  "borderColor": "#C9D9C5",
+                  "borderRadius": "14px",
+                  "color": "#1E4D42",
+                  "focus:borderColor": "#2F6B57",
+                  "focus:boxShadow": "0 0 0 3px rgba(47,107,87,0.16)",
+                  "focus:outline": "none",
+                  "fontFamily": "IBM Plex Sans Arabic",
+                  "fontSize": "14px",
+                  "minHeight": "48px",
+                  "padding": "0 14px",
+                  "textAlign": "left",
+                  "width": "100%"
+                 },
+                 "blockId": "ec2634297",
+                 "element": "input"
+                },
+                {
+                 "attributes": {
+                  "data-children-wrap": ""
+                 },
+                 "baseStyles": {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "gap": "10px"
+                 },
+                 "blockId": "5312a54ba",
+                 "blockName": "children-wrap",
+                 "children": [
+                  {
+                   "attributes": {
+                    "data-child-block": "",
+                    "data-child-index": "0",
+                    "data-child-row": ""
+                   },
+                   "baseStyles": {
+                    "backgroundColor": "#F5F8F1",
+                    "border": "1px solid #E2DDD0",
+                    "borderColor": "#D7E2D4",
+                    "borderRadius": "16px",
+                    "display": "grid",
+                    "gap": "12px",
+                    "gridTemplateColumns": "1fr 1fr",
+                    "padding": "16px"
+                   },
+                   "blockId": "f71c73264",
+                   "blockName": "child-block",
+                   "children": [
+                    {
+                     "attributes": {
+                      "data-child-title": ""
+                     },
+                     "baseStyles": {
+                      "color": "var(--dt-ink)",
+                      "fontSize": "14px",
+                      "fontWeight": "700"
+                     },
+                     "blockId": "1c5426f65",
+                     "element": "span",
+                     "innerHTML": "الابن 1"
+                    },
+                    {
+                     "attributes": {
+                      "data-child-remove": "",
+                      "data-remove-child": "",
+                      "hidden": "",
+                      "type": "button"
+                     },
+                     "blockId": "055991d4e",
+                     "element": "button",
+                     "innerHTML": "إزالة"
+                    },
+                    {
+                     "attributes": {
+                      "data-child-name": "",
+                      "type": "text"
+                     },
+                     "baseStyles": {
+                      "backgroundColor": "#FFFFFF",
+                      "border": "1.5px solid #E2DDD0",
+                      "borderColor": "#C9D9C5",
+                      "borderRadius": "14px",
+                      "color": "#1E4D42",
+                      "focus:borderColor": "#2F6B57",
+                      "focus:boxShadow": "0 0 0 3px rgba(47,107,87,0.16)",
+                      "focus:outline": "none",
+                      "fontFamily": "IBM Plex Sans Arabic",
+                      "fontSize": "14px",
+                      "minHeight": "48px",
+                      "padding": "0 14px",
+                      "width": "100%"
+                     },
+                     "blockId": "58d71a2dc",
+                     "element": "input"
+                    },
+                    {
+                     "attributes": {
+                      "data-child-stage": ""
+                     },
+                     "baseStyles": {
+                      "appearance": "none",
+                      "backgroundColor": "#FFFFFF",
+                      "border": "1.5px solid #E2DDD0",
+                      "borderColor": "#C9D9C5",
+                      "borderRadius": "14px",
+                      "color": "#1E4D42",
+                      "focus:borderColor": "#2F6B57",
+                      "focus:boxShadow": "0 0 0 3px rgba(47,107,87,0.16)",
+                      "focus:outline": "none",
+                      "fontFamily": "IBM Plex Sans Arabic",
+                      "fontSize": "14px",
+                      "minHeight": "48px",
+                      "padding": "0 14px",
+                      "width": "100%"
+                     },
+                     "blockId": "b39b816e1",
+                     "children": [
+                      {
+                       "attributes": {
+                        "value": ""
+                       },
+                       "blockId": "fbd901a76",
+                       "element": "option",
+                       "innerHTML": "اختر المرحلة"
+                      }
+                     ],
+                     "element": "select",
+                     "mobileStyles": {
+                      "fontSize": "16px"
+                     }
+                    },
+                    {
+                     "attributes": {
+                      "data-child-grade": "",
+                      "disabled": ""
+                     },
+                     "baseStyles": {
+                      "appearance": "none",
+                      "backgroundColor": "#FFFFFF",
+                      "border": "1.5px solid #E2DDD0",
+                      "borderColor": "#C9D9C5",
+                      "borderRadius": "14px",
+                      "color": "#1E4D42",
+                      "focus:borderColor": "#2F6B57",
+                      "focus:boxShadow": "0 0 0 3px rgba(47,107,87,0.16)",
+                      "focus:outline": "none",
+                      "fontFamily": "IBM Plex Sans Arabic",
+                      "fontSize": "14px",
+                      "minHeight": "48px",
+                      "padding": "0 14px",
+                      "width": "100%"
+                     },
+                     "blockId": "387dd9c87",
+                     "children": [
+                      {
+                       "attributes": {
+                        "value": ""
+                       },
+                       "blockId": "4a93cceae",
+                       "element": "option",
+                       "innerHTML": "اختر المرحلة أولًا"
+                      }
+                     ],
+                     "element": "select",
+                     "mobileStyles": {
+                      "fontSize": "16px"
+                     }
+                    },
+                    {
+                     "attributes": {
+                      "data-child-relationship": "",
+                      "name": "relationship_code_0",
+                      "required": ""
+                     },
+                     "baseStyles": {
+                      "appearance": "none",
+                      "backgroundColor": "#FFFFFF",
+                      "border": "1.5px solid #E2DDD0",
+                      "borderColor": "#C9D9C5",
+                      "borderRadius": "14px",
+                      "color": "#1E4D42",
+                      "focus:borderColor": "#2F6B57",
+                      "focus:boxShadow": "0 0 0 3px rgba(47,107,87,0.16)",
+                      "focus:outline": "none",
+                      "fontFamily": "IBM Plex Sans Arabic",
+                      "fontSize": "14px",
+                      "minHeight": "48px",
+                      "padding": "0 14px",
+                      "width": "100%"
+                     },
+                     "blockId": "0d4acfa30",
+                     "children": [
+                      {
+                       "attributes": {
+                        "disabled": "",
+                        "selected": "",
+                        "value": ""
+                       },
+                       "blockId": "53a324e5a",
+                       "element": "option",
+                       "innerHTML": "اختر صلة القرابة"
+                      },
+                      {
+                       "attributes": {
+                        "value": "son"
+                       },
+                       "blockId": "5ead5ce28",
+                       "element": "option",
+                       "innerHTML": "ابن"
+                      },
+                      {
+                       "attributes": {
+                        "value": "daughter"
+                       },
+                       "blockId": "230b47d26",
+                       "element": "option",
+                       "innerHTML": "ابنة"
+                      },
+                      {
+                       "attributes": {
+                        "value": "other"
+                       },
+                       "blockId": "4e01f796e",
+                       "element": "option",
+                       "innerHTML": "غير ذلك"
+                      }
+                     ],
+                     "element": "select",
+                     "mobileStyles": {
+                      "fontSize": "16px"
+                     }
+                    },
+                    {
+                     "baseStyles": {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "fontSize": "13px",
+                      "gap": "7px"
+                     },
+                     "blockId": "49ff8922e",
+                     "children": [
+                      {
+                       "attributes": {
+                        "checked": "",
+                        "data-child-samephone": "",
+                        "type": "checkbox"
+                       },
+                       "blockId": "d076e026f",
+                       "element": "input"
+                      }
+                     ],
+                     "element": "label",
+                     "innerHTML": "نفس رقمي (استخدام رقم ولي الأمر)"
+                    },
+                    {
+                     "attributes": {
+                      "data-child-phone-field": "",
+                      "style": "display:none"
+                     },
+                     "blockId": "3ea86702d",
+                     "children": [
+                      {
+                       "attributes": {
+                        "data-child-phone": "",
+                        "dir": "ltr",
+                        "type": "tel"
+                       },
+                       "baseStyles": {
+                        "backgroundColor": "#FFFFFF",
+                        "border": "1.5px solid #E2DDD0",
+                        "borderColor": "#C9D9C5",
+                        "borderRadius": "14px",
+                        "color": "#1E4D42",
+                        "focus:borderColor": "#2F6B57",
+                        "focus:boxShadow": "0 0 0 3px rgba(47,107,87,0.16)",
+                        "focus:outline": "none",
+                        "fontFamily": "IBM Plex Sans Arabic",
+                        "fontSize": "14px",
+                        "minHeight": "48px",
+                        "padding": "0 14px",
+                        "textAlign": "left",
+                        "width": "100%"
+                       },
+                       "blockId": "28d7e6a00",
+                       "element": "input"
+                      }
+                     ],
+                     "element": "div"
+                    }
+                   ],
+                   "element": "div",
+                   "mobileStyles": {
+                    "gridTemplateColumns": "1fr",
+                    "padding": "14px"
+                   }
+                  }
+                 ],
+                 "element": "div"
+                },
+                {
+                 "attributes": {
+                  "data-add-child": "",
+                  "type": "button"
+                 },
+                 "baseStyles": {
+                  "alignSelf": "flex-start",
+                  "backgroundColor": "#EAF2E7",
+                  "border": "0",
+                  "borderColor": "#BFD2BA",
+                  "borderRadius": "999px",
+                  "color": "#1E4D42",
+                  "fontFamily": "IBM Plex Sans Arabic",
+                  "fontWeight": "700",
+                  "minHeight": "46px",
+                  "padding": "10px 18px"
+                 },
+                 "blockId": "85695ed92",
+                 "element": "button",
+                 "innerHTML": "+ إضافة ابن آخر"
+                }
+               ],
+               "element": "div"
+              },
+              {
+               "attributes": {
+                "data-submission-results": "",
+                "hidden": "",
+                "role": "status"
+               },
+               "blockId": "ff290c000",
+               "element": "div"
+              },
+              {
+               "attributes": {
+                "data-consent": ""
+               },
+               "baseStyles": {
+                "alignItems": "center",
+                "color": "#6B6F66",
+                "display": "flex",
+                "flexWrap": "wrap",
+                "fontSize": "13px",
+                "gap": "6px"
+               },
+               "blockId": "a2285413e",
+               "children": [
+                {
+                 "attributes": {
+                  "data-consent-checkbox": "",
+                  "required": "",
+                  "type": "checkbox"
+                 },
+                 "blockId": "c94bb1196",
+                 "element": "input"
+                },
+                {
+                 "attributes": {
+                  "data-policy-link": "",
+                  "href": "#",
+                  "rel": "noopener noreferrer"
+                 },
+                 "baseStyles": {
+                  "color": "var(--dt-ink)",
+                  "fontWeight": "700"
+                 },
+                 "blockId": "228d40613",
+                 "element": "a",
+                 "innerHTML": "سياسة الخصوصية"
+                }
+               ],
+               "element": "label",
+               "innerHTML": "أوافق على الشروط و"
+              },
+              {
+               "attributes": {
+                "data-captcha-slot": ""
+               },
+               "blockId": "dd0bd7cfe",
+               "element": "div"
+              },
+              {
+               "attributes": {
+                "data-submit-btn": "",
+                "type": "submit"
+               },
+               "baseStyles": {
+                "alignItems": "center",
+                "backgroundColor": "var(--brand,#1E2A1E)",
+                "border": "0",
+                "borderRadius": "999px",
+                "color": "var(--on-brand)",
+                "display": "flex",
+                "fontFamily": "IBM Plex Sans Arabic",
+                "fontSize": "15px",
+                "fontWeight": "700",
+                "hover:transform": "translateY(-2px)",
+                "justifyContent": "center",
+                "minHeight": "52px",
+                "transition": "all 0.2s ease",
+                "width": "100%"
+               },
+               "blockId": "57cc7b8e9",
+               "classes": [
+                "am-btn"
+               ],
+               "element": "button",
+               "innerHTML": "إرسال الطلب"
+              }
+             ],
+             "element": "div"
+            },
+            {
+             "attributes": {
+              "data-step": "success",
+              "hidden": ""
+             },
+             "baseStyles": {
+              "backgroundColor": "var(--dt-ink)",
+              "borderRadius": "12px",
+              "color": "var(--on-brand)",
+              "padding": "34px 22px",
+              "textAlign": "center"
+             },
+             "blockId": "f865b1788",
+             "blockName": "application-success-step",
+             "children": [
+              {
+               "baseStyles": {
+                "fontFamily": "var(--dt-font-heading)",
+                "fontSize": "26px",
+                "margin": "0 0 10px"
+               },
+               "blockId": "d08f85687",
+               "element": "h3",
+               "innerHTML": "تم استلام طلبك بنجاح"
+              },
+              {
+               "attributes": {
+                "data-success-msg": "",
+                "role": "status"
+               },
+               "baseStyles": {
+                "color": "rgba(255,255,255,0.82)",
+                "margin": "0 0 10px"
+               },
+               "blockId": "e1d8ff8b5",
+               "element": "p",
+               "innerHTML": "تم إرسال طلبك بنجاح"
+              },
+              {
+               "baseStyles": {
+                "color": "rgba(255,255,255,0.82)",
+                "fontSize": "14px",
+                "margin": "0 0 18px"
+               },
+               "blockId": "d51361c87",
+               "element": "p",
+               "innerHTML": "سيتواصل معك المعلّم قريبًا. حمّل تطبيق المدرسة لتتابع مجموعتك ودروسك أولًا بأول."
+              },
+              {
+               "attributes": {
+                "data-stores": ""
+               },
+               "baseStyles": {
+                "display": "flex",
+                "flexWrap": "wrap",
+                "gap": "10px",
+                "justifyContent": "center"
+               },
+               "blockId": "3b3d4d4c5",
+               "children": [
+                {
+                 "attributes": {
+                  "data-store": "android",
+                  "href": "https://play.google.com/store/apps/details?id=com.elmadrasah.app",
+                  "rel": "noopener noreferrer"
+                 },
+                 "baseStyles": {
+                  "alignItems": "center",
+                  "backgroundColor": "var(--dt-lime)",
+                  "borderRadius": "8px",
+                  "color": "var(--dt-ink)",
+                  "display": "flex",
+                  "fontSize": "13px",
+                  "fontWeight": "700",
+                  "minHeight": "44px",
+                  "padding": "10px 15px",
+                  "textDecoration": "none"
+                 },
+                 "blockId": "10fcd793d",
+                 "classes": [
+                  "am-badge"
+                 ],
+                 "element": "a",
+                 "innerHTML": "Google Play"
+                },
+                {
+                 "attributes": {
+                  "data-store": "ios",
+                  "href": "https://apps.apple.com/app/id6755660500",
+                  "rel": "noopener noreferrer"
+                 },
+                 "baseStyles": {
+                  "alignItems": "center",
+                  "border": "1px solid rgba(255,255,255,0.42)",
+                  "borderRadius": "8px",
+                  "color": "var(--on-brand)",
+                  "display": "flex",
+                  "fontSize": "13px",
+                  "fontWeight": "700",
+                  "minHeight": "44px",
+                  "padding": "10px 15px",
+                  "textDecoration": "none"
+                 },
+                 "blockId": "79b203ea9",
+                 "classes": [
+                  "am-badge"
+                 ],
+                 "element": "a",
+                 "innerHTML": "App Store"
+                }
+               ],
+               "element": "div"
+              }
+             ],
+             "element": "section"
+            }
+           ],
+           "element": "form"
+          }
+         ],
+         "element": "div",
+         "mobileStyles": {
+          "gridRow": "1",
+          "padding": "0"
+         },
+         "tabletStyles": {
+          "gridRow": "1",
+          "padding": "0"
+         }
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "borderRadius": "24px",
+        "gap": "24px",
+        "gridTemplateColumns": "1fr",
+        "padding": "24px 18px"
+       },
+       "tabletStyles": {
+        "gap": "28px",
+        "gridTemplateColumns": "minmax(0, 1fr) minmax(320px, 0.8fr)",
+        "padding": "32px"
+       }
+      }
+     ],
+     "classes": [
+      "am-fade-up"
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "24px 16px 16px"
+     }
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--dt-lilac)",
+      "padding": "32px 18px 18px",
+      "width": "100%"
+     },
+     "blockId": "8ab470ee8",
+     "blockName": "closing-presentation-section",
+     "children": [
+      {
+       "baseStyles": {
+        "alignItems": "flex-start",
+        "backgroundColor": "var(--dt-ink)",
+        "borderRadius": "14px",
+        "color": "#FFFFFF",
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "center",
+        "margin": "0 auto",
+        "maxWidth": "1280px",
+        "minHeight": "300px",
+        "overflow": "hidden",
+        "padding": "42px",
+        "position": "relative",
+        "width": "100%"
+       },
+       "blockId": "306b3657c",
+       "blockName": "closing-end-slide",
+       "children": [
+        {
+         "baseStyles": {
+          "backgroundColor": "var(--dt-lime)",
+          "borderRadius": "7px",
+          "color": "var(--dt-ink)",
+          "fontSize": "12px",
+          "fontWeight": "700",
+          "marginBottom": "14px",
+          "padding": "6px 10px"
+         },
+         "blockId": "5b43ef99c",
+         "element": "span",
+         "innerHTML": "الخطوة التالية"
+        },
+        {
+         "baseStyles": {
+          "color": "var(--on-brand)",
+          "fontFamily": "var(--dt-font-heading)",
+          "fontSize": "48px",
+          "fontWeight": "700",
+          "lineHeight": "1.2",
+          "margin": "0 0 10px"
+         },
+         "blockId": "0dec8498e",
+         "element": "h2",
+         "innerHTML": "جاهز تبدأ؟",
+         "mobileStyles": {
+          "fontSize": "34px"
+         }
+        },
+        {
+         "baseStyles": {
+          "color": "rgba(255,255,255,0.82)",
+          "fontSize": "16px",
+          "margin": "0 0 22px",
+          "maxWidth": "480px"
+         },
+         "blockId": "1dcab8aef",
+         "element": "p",
+         "innerHTML": "اختر المجموعة المناسبة لك وأرسل طلب الانضمام في دقيقة."
+        },
+        {
+         "attributes": {
+          "href": "#المجموعات-المتاحة",
+          "rel": "noopener noreferrer"
+         },
+         "baseStyles": {
+          "alignItems": "center",
+          "backgroundColor": "var(--dt-lime)",
+          "borderRadius": "10px",
+          "color": "var(--dt-ink)",
+          "display": "flex",
+          "fontWeight": "700",
+          "justifyContent": "center",
+          "minHeight": "50px",
+          "padding": "13px 21px",
+          "textDecoration": "none"
+         },
+         "blockId": "7ca39ecaf",
+         "classes": [
+          "am-btn"
+         ],
+         "element": "a",
+         "innerHTML": "اختر مجموعتك"
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "minHeight": "260px",
+        "padding": "28px 22px"
+       }
+      }
+     ],
+     "classes": [
+      "am-fade-up",
+      "am-delay-4"
+     ],
+     "element": "section",
+     "mobileStyles": {
+      "padding": "24px 16px 16px"
+     }
+    },
+    {
+     "baseStyles": {
+      "backgroundColor": "var(--dt-lilac)",
+      "padding": "24px 18px 30px",
+      "width": "100%"
+     },
+     "blockId": "c43f7016d",
+     "blockName": "simple-footer",
+     "children": [
+      {
+       "baseStyles": {
+        "alignItems": "center",
+        "borderTop": "1px solid #D9D5F2",
+        "display": "flex",
+        "flexWrap": "wrap",
+        "gap": "12px",
+        "justifyContent": "space-between",
+        "margin": "0 auto",
+        "maxWidth": "1280px",
+        "paddingTop": "18px",
+        "width": "100%"
+       },
+       "blockId": "b5d439f52",
+       "blockName": "footer-inner",
+       "children": [
+        {
+         "baseStyles": {
+          "color": "var(--dt-ink)",
+          "fontFamily": "var(--dt-font-heading)",
+          "fontSize": "16px",
+          "fontWeight": "700"
+         },
+         "blockId": "61baafcfa",
+         "element": "span",
+         "innerHTML": "منصة المعلّمين"
+        },
+        {
+         "baseStyles": {
+          "color": "#6B6F66",
+          "fontSize": "12px",
+          "margin": "0"
+         },
+         "blockId": "b15b01a79",
+         "element": "p",
+         "innerHTML": "تعليم منظّم يبدأ من الفهم."
+        }
+       ],
+       "element": "div",
+       "mobileStyles": {
+        "justifyContent": "center"
+       }
+      }
+     ],
+     "element": "footer",
+     "mobileStyles": {
+      "padding": "20px 16px 24px"
+     }
+    }
+   ],
+   "element": "div",
+   "originalElement": "body"
+  }
+ ],
+ "client_scripts": [
+  {
+   "builder_script": "Save Teacher Proposal Submission submissions"
+  },
+  {
+   "builder_script": "Application Role Toggle"
+  },
+  {
+   "builder_script": "Group Picker Filters"
+  },
+  {
+   "builder_script": "Interface Motion"
+  },
+  {
+   "builder_script": "Proposal Step Navigation"
+  },
+  {
+   "builder_script": "Proposal Step Motion"
+  },
+  {
+   "builder_script": "Page Motion Styles"
+  },
+  {
+   "builder_script": "Page State Styles"
+  }
+ ],
+ "creation": "2026-09-20 13:54:18.617085",
+ "disable_indexing": 1,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 1,
+ "idx": 0,
+ "is_standard": 0,
+ "is_template": 1,
+ "meta_description": "A one-day event for practical design techniques, live work and thoughtful conversation.",
+ "modified": "2026-10-03 02:23:45.994559",
+ "modified_by": "Administrator",
+ "name": "page-8fac460f",
+ "owner": "Administrator",
+ "page_data_script": "data.presentation_features = [{\"number\":\"01\",\"title\":\"\\u0634\\u0631\\u062d \\u0648\\u0627\\u0636\\u062d \\u062e\\u0637\\u0648\\u0629 \\u0628\\u062e\\u0637\\u0648\\u0629\"},{\"number\":\"02\",\"title\":\"\\u0645\\u062a\\u0627\\u0628\\u0639\\u0629 \\u0645\\u0633\\u062a\\u0645\\u0631\\u0629 \\u0644\\u062a\\u0642\\u062f\\u0651\\u0645\\u0643\"},{\"number\":\"03\",\"title\":\"\\u0645\\u062c\\u0645\\u0648\\u0639\\u0627\\u062a \\u0628\\u0623\\u0639\\u062f\\u0627\\u062f \\u0645\\u0646\\u0627\\u0633\\u0628\\u0629\"},{\"number\":\"04\",\"title\":\"\\u062a\\u062f\\u0631\\u064a\\u0628 \\u0639\\u0645\\u0644\\u064a \\u0642\\u0628\\u0644 \\u0627\\u0644\\u0627\\u062e\\u062a\\u0628\\u0627\\u0631\\u0627\\u062a\"}]\ndata.support_items = [{\"title\":\"\\u0645\\u062a\\u0627\\u0628\\u0639\\u0629 \\u0623\\u0643\\u0627\\u062f\\u064a\\u0645\\u064a\\u0629\",\"body\":\"\\u0646\\u062a\\u0627\\u0628\\u0639 \\u062a\\u0642\\u062f\\u0651\\u0645\\u0643 \\u0648\\u0646\\u0648\\u0636\\u0651\\u062d \\u0644\\u0643 \\u0646\\u0642\\u0627\\u0637 \\u0627\\u0644\\u0642\\u0648\\u0629 \\u0648\\u0645\\u0627 \\u064a\\u062d\\u062a\\u0627\\u062c \\u0625\\u0644\\u0649 \\u062a\\u062d\\u0633\\u064a\\u0646.\"},{\"title\":\"\\u062f\\u0639\\u0645 \\u0646\\u0641\\u0633\\u064a \\u0648\\u062a\\u062d\\u0641\\u064a\\u0632\",\"body\":\"\\u0628\\u064a\\u0626\\u0629 \\u0645\\u0634\\u062c\\u0651\\u0639\\u0629 \\u062a\\u0633\\u0627\\u0639\\u062f\\u0643 \\u0639\\u0644\\u0649 \\u0627\\u0644\\u0627\\u0633\\u062a\\u0645\\u0631\\u0627\\u0631 \\u0628\\u062b\\u0642\\u0629 \\u0648\\u0628\\u062f\\u0648\\u0646 \\u0636\\u063a\\u0637.\"},{\"title\":\"\\u062a\\u062f\\u0631\\u064a\\u0628 \\u0639\\u0644\\u0649 \\u0627\\u0644\\u0627\\u062e\\u062a\\u0628\\u0627\\u0631\\u0627\\u062a\",\"body\":\"\\u0646\\u0645\\u0627\\u0630\\u062c \\u0648\\u062a\\u0645\\u0627\\u0631\\u064a\\u0646 \\u062a\\u062d\\u0627\\u0643\\u064a \\u0627\\u0644\\u0627\\u062e\\u062a\\u0628\\u0627\\u0631 \\u0644\\u062a\\u062f\\u062e\\u0644 \\u0645\\u0633\\u062a\\u0639\\u062f\\u064b\\u0651\\u0627.\"},{\"title\":\"\\u062a\\u0648\\u0627\\u0635\\u0644 \\u0645\\u0639 \\u0648\\u0644\\u064a\\u0651 \\u0627\\u0644\\u0623\\u0645\\u0631\",\"body\":\"\\u062a\\u062d\\u062f\\u064a\\u062b\\u0627\\u062a \\u0648\\u0627\\u0636\\u062d\\u0629 \\u062a\\u064f\\u0628\\u0642\\u064a \\u0627\\u0644\\u0623\\u0633\\u0631\\u0629 \\u0639\\u0644\\u0649 \\u0627\\u0637\\u0651\\u0644\\u0627\\u0639.\"}]",
+ "page_name": "page-8fac460f",
+ "page_title": "Design Techniques",
+ "preview": "/files/page-8fac460f-catalog-preview.webp",
+ "project_folder": null,
+ "published": 0,
+ "published_at": null,
+ "route": "design-techniques-event",
+ "template_group": "almadrasa"
+}

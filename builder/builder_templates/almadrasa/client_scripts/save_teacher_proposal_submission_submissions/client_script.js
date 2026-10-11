@@ -1,0 +1,1 @@
+// Submission logic intentionally removed. This interface exposes stable field names, data bindings, and state hooks for the existing application flow to connect later.

@@ -1,0 +1,13 @@
+{
+ "creation": "2026-09-23 14:26:47.239965",
+ "docstatus": 0,
+ "doctype": "Builder Client Script",
+ "idx": 2,
+ "modified": "2026-09-25 13:04:22.448291",
+ "modified_by": "Administrator",
+ "name": "Interface Motion",
+ "owner": "Administrator",
+ "public_url": "/files/page_styles/Interface Motion-999840bd38.css?v=6c5539b1b4",
+ "script": "[data-group-template][data-group-card] { display: none !important; }\n@media (prefers-reduced-motion: no-preference) {\n  .teacher-group-card, .group-filters, .teacher-media-controls, .role-panel, .selected-group-notice, .application-state, .application-success-step { transition: transform .22s ease, box-shadow .22s ease, opacity .22s ease; }\n  .teacher-group-card:not([hidden]):hover, .teacher-group-card:not([hidden]):focus-within { box-shadow: 0 12px 24px rgba(45,30,20,.09); transform: translateY(-3px); }\n  .teacher-group-card[hidden], .role-panel[hidden], .application-state[hidden], .application-success-step[hidden] { opacity: 0; transform: translateY(8px); }\n  .teacher-media-controls button, .clear-group-filters, .add-child-new, .phone-blocked-button, .store-link { transition: transform .18s ease, background-color .18s ease, box-shadow .18s ease; }\n  .teacher-media-controls button:hover, .clear-group-filters:hover, .add-child-new:hover, .phone-blocked-button:hover, .store-link:hover { transform: translateY(-1px); }\n}\n@media (prefers-reduced-motion: reduce) { .teacher-group-card, .group-filters, .teacher-media-controls, .role-panel, .selected-group-notice, .application-state, .application-success-step { transition: none; } }",
+ "script_type": "CSS"
+}

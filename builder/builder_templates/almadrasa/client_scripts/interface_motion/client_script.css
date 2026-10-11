@@ -1,0 +1,9 @@
+[data-group-template][data-group-card] { display: none !important; }
+@media (prefers-reduced-motion: no-preference) {
+  .teacher-group-card, .group-filters, .teacher-media-controls, .role-panel, .selected-group-notice, .application-state, .application-success-step { transition: transform .22s ease, box-shadow .22s ease, opacity .22s ease; }
+  .teacher-group-card:not([hidden]):hover, .teacher-group-card:not([hidden]):focus-within { box-shadow: 0 12px 24px rgba(45,30,20,.09); transform: translateY(-3px); }
+  .teacher-group-card[hidden], .role-panel[hidden], .application-state[hidden], .application-success-step[hidden] { opacity: 0; transform: translateY(8px); }
+  .teacher-media-controls button, .clear-group-filters, .add-child-new, .phone-blocked-button, .store-link { transition: transform .18s ease, background-color .18s ease, box-shadow .18s ease; }
+  .teacher-media-controls button:hover, .clear-group-filters:hover, .add-child-new:hover, .phone-blocked-button:hover, .store-link:hover { transform: translateY(-1px); }
+}
+@media (prefers-reduced-motion: reduce) { .teacher-group-card, .group-filters, .teacher-media-controls, .role-panel, .selected-group-notice, .application-state, .application-success-step { transition: none; } }

@@ -1,0 +1,13 @@
+{
+ "creation": "2026-09-27 11:55:20.773562",
+ "docstatus": 0,
+ "doctype": "Builder Client Script",
+ "idx": 3,
+ "modified": "2026-09-27 11:55:20.773562",
+ "modified_by": "Administrator",
+ "name": "Proposal Base Styles",
+ "owner": "Administrator",
+ "public_url": "/files/page_styles/Proposal Base Styles-cb08d337c8.css?v=f01f580b3c",
+ "script": "html{scroll-behavior:smooth}",
+ "script_type": "CSS"
+}

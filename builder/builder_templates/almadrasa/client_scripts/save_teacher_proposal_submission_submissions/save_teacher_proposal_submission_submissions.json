@@ -1,0 +1,13 @@
+{
+ "creation": "2026-09-23 09:57:00.627569",
+ "docstatus": 0,
+ "doctype": "Builder Client Script",
+ "idx": 10,
+ "modified": "2026-09-23 13:46:33.969038",
+ "modified_by": "Administrator",
+ "name": "Save Teacher Proposal Submission submissions",
+ "owner": "Administrator",
+ "public_url": "/files/page_scripts/Save Teacher Proposal Submission submissions-3ff0f38f51.js?v=72994eeb36",
+ "script": "// Submission logic intentionally removed. This interface exposes stable field names, data bindings, and state hooks for the existing application flow to connect later.",
+ "script_type": "JavaScript"
+}

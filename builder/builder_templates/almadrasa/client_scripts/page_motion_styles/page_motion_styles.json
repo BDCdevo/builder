@@ -1,0 +1,13 @@
+{
+ "creation": "2026-09-27 11:56:07.785424",
+ "docstatus": 0,
+ "doctype": "Builder Client Script",
+ "idx": 1,
+ "modified": "2026-09-27 11:56:07.785424",
+ "modified_by": "Administrator",
+ "name": "Page Motion Styles",
+ "owner": "Administrator",
+ "public_url": "/files/page_styles/Page Motion Styles-16113c537b.css?v=53d261449b",
+ "script": ".am-hover-lift{transition:transform 200ms ease}.am-hover-lift:hover,.am-hover-lift:focus-within{transform:translateY(-4px);box-shadow:0 14px 28px color-mix(in srgb,var(--brand,#1E2A1E),transparent 82%)}.am-btn{background:var(--brand,#1E2A1E);color:var(--on-brand,#FFFFFF);transition:transform 180ms ease}.am-btn:hover,.am-btn:focus-visible{transform:translateY(-2px);background:linear-gradient(135deg,var(--brand,#1E2A1E),var(--brand-2,#5E8F3E));color:var(--on-brand,#FFFFFF);outline:3px solid var(--design-accent,#5E8F3E);outline-offset:3px}.am-fade-up{animation:am-fade-up 450ms ease both}.am-delay-1{animation-delay:75ms}.am-delay-2{animation-delay:150ms}.am-delay-3{animation-delay:225ms}.am-delay-4{animation-delay:300ms}@keyframes am-fade-up{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}.am-zoom{overflow:hidden}.am-zoom img{transition:transform 600ms ease}.am-zoom:hover img{transform:scale(1.035)}.am-underline{position:relative}.am-underline::after{content:\"\";position:absolute;inset-inline:0;bottom:-4px;height:2px;background:var(--brand-2,#5E8F3E);transform:scaleX(0);transform-origin:inline-start;transition:transform 180ms ease;pointer-events:none}.am-underline:hover::after,.am-underline:focus-visible::after{transform:scaleX(1)}.am-glow:hover,.am-glow:focus-within{box-shadow:0 0 0 3px color-mix(in srgb,var(--design-accent,#5E8F3E),transparent 55%)}.am-badge{transition:transform 150ms ease}.am-badge:hover,.am-badge:focus-visible{transform:scale(1.03);outline:3px solid var(--design-accent,#5E8F3E);outline-offset:3px}[hidden]{display:none!important}html{scroll-behavior:smooth}@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}",
+ "script_type": "CSS"
+}

@@ -1,0 +1,13 @@
+{
+ "creation": "2026-09-27 11:55:20.595973",
+ "docstatus": 0,
+ "doctype": "Builder Client Script",
+ "idx": 6,
+ "modified": "2026-09-27 12:50:19.933239",
+ "modified_by": "Administrator",
+ "name": "Am Motion Styles",
+ "owner": "Administrator",
+ "public_url": "/files/page_styles/Am Motion Styles-12719d7578.css?v=1b168dc89e",
+ "script": ".am-hover-lift{transition:transform 200ms ease,box-shadow 200ms ease}.am-hover-lift:hover,.am-hover-lift:focus-within{transform:translateY(-4px);box-shadow:0 14px 28px color-mix(in srgb,var(--brand,#122B52),transparent 82%)}.am-btn{transition:transform 180ms ease,background-color 180ms ease}.am-btn:hover,.am-btn:focus-visible{transform:translateY(-2px);outline:3px solid var(--design-accent,#1E7AC4);outline-offset:3px}.am-zoom{overflow:hidden}.am-zoom img{transition:transform 600ms ease}.am-zoom:hover img{transform:scale(1.035)}.am-underline{position:relative}.am-underline::after{content:\"\";position:absolute;inset-inline:0;bottom:-4px;height:2px;background:var(--brand-2,#1E7AC4);transform:scaleX(0);transform-origin:right;transition:transform 180ms ease}.am-underline:hover::after,.am-underline:focus-visible::after{transform:scaleX(1)}.am-glow:hover,.am-glow:focus-within{box-shadow:0 0 0 3px color-mix(in srgb,var(--design-accent,#1E7AC4),transparent 55%)}.am-badge{transition:transform 150ms ease}.am-badge:hover,.am-badge:focus-visible{transform:scale(1.03);outline:3px solid var(--design-accent,#1E7AC4);outline-offset:3px}@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}",
+ "script_type": "CSS"
+}

@@ -1,0 +1,13 @@
+{
+ "creation": "2026-09-27 11:58:25.144145",
+ "docstatus": 0,
+ "doctype": "Builder Client Script",
+ "idx": 4,
+ "modified": "2026-09-27 12:50:19.968487",
+ "modified_by": "Administrator",
+ "name": "Proposal Visibility Rules",
+ "owner": "Administrator",
+ "public_url": "/files/page_styles/Proposal Visibility Rules-fc258c1843.css?v=6a8331017a",
+ "script": "html{scroll-behavior:smooth}[hidden]{display:none!important}[data-teacher-tagline]:empty{display:none}[data-group-template]{display:none!important}",
+ "script_type": "CSS"
+}

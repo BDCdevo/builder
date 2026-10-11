@@ -1,0 +1,13 @@
+{
+ "creation": "2026-09-27 12:50:19.388759",
+ "docstatus": 0,
+ "doctype": "Builder Client Script",
+ "idx": 0,
+ "modified": "2026-09-27 12:50:19.388759",
+ "modified_by": "Administrator",
+ "name": "Page State Styles",
+ "owner": "Administrator",
+ "public_url": "/files/page_styles/Page State Styles-9c37af68c8.css?v=7893791e02",
+ "script": "html { scroll-behavior: smooth; }\n[hidden] { display: none !important; }\n[data-teacher-tagline]:empty { display: none; }",
+ "script_type": "CSS"
+}

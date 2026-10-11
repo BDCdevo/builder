@@ -1,0 +1,13 @@
+{
+ "creation": "2026-09-23 13:46:41.440067",
+ "docstatus": 0,
+ "doctype": "Builder Client Script",
+ "idx": 4,
+ "modified": "2026-09-23 14:27:39.589270",
+ "modified_by": "Administrator",
+ "name": "Application Role Toggle",
+ "owner": "Administrator",
+ "public_url": "/files/page_scripts/Application Role Toggle-175f2800cc.js?v=77f3a58087",
+ "script": "const appForm = document.querySelector('form[data-teacher-application]');\nif (appForm) {\n  const roleRadios = appForm.querySelectorAll('[data-role-toggle]');\n  const panels = appForm.querySelectorAll('[data-role-panel]');\n  const setFields = (panel, active) => panel.querySelectorAll('input, select, textarea').forEach((field) => {\n    field.disabled = !active;\n    if (active && field.hasAttribute('data-required')) field.required = true;\n    if (!active) field.required = false;\n  });\n  const applyRole = () => {\n    const role = appForm.querySelector('[data-role-toggle]:checked')?.dataset.roleToggle;\n    panels.forEach((panel) => {\n      const active = panel.dataset.rolePanel === role;\n      panel.hidden = !active;\n      panel.style.display = active ? 'flex' : 'none';\n      setFields(panel, active);\n    });\n  };\n  const childrenWrap = appForm.querySelector('[data-children-wrap]');\n  const template = childrenWrap?.querySelector('[data-child-block]');\n  appForm.addEventListener('change', (event) => {\n    if (event.target.matches('[data-role-toggle]')) applyRole();\n    if (event.target.matches('[data-child-samephone]')) {\n      const phone = event.target.closest('[data-child-block]')?.querySelector('[data-child-phone]');\n      if (phone) { phone.disabled = event.target.checked; phone.hidden = event.target.checked; phone.required = !event.target.checked; }\n    }\n  });\n  appForm.addEventListener('click', (event) => {\n    if (event.target.closest('[data-add-child]') && template && childrenWrap) {\n      const copy = template.cloneNode(true);\n      copy.querySelectorAll('input, select').forEach((field) => { field.value = ''; field.checked = false; field.disabled = false; field.hidden = false; });\n      childrenWrap.appendChild(copy);\n    }\n    const remove = event.target.closest('[data-remove-child]');\n    if (remove && childrenWrap?.querySelectorAll('[data-child-block]').length > 1) remove.closest('[data-child-block]')?.remove();\n  });\n  applyRole();\n}",
+ "script_type": "JavaScript"
+}
